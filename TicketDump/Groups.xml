@@ -1,0 +1,3011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups type="array">
+  <group>
+    <id type="integer">1000204689</id>
+    <name>A/V Events</name>
+    <description>Responsible for managing tickets that pertain to events only</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2017-07-25T10:36:16-05:00</created-at>
+    <updated-at type="dateTime">2017-07-25T10:36:16-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000688144</id>
+        <name>AV Technician</name>
+        <email>av@msoe.edu</email>
+        <created-at type="dateTime">2016-09-22T13:21:57-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:36:32-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone>414-277-7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000607400</id>
+        <name>Caroline Beavan</name>
+        <email>beavanca@msoe.edu</email>
+        <created-at type="dateTime">2016-03-24T16:13:02-05:00</created-at>
+        <updated-at type="dateTime">2018-11-08T15:00:54-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000845263</id>
+        <name>Eduardo Diaz-Barragan</name>
+        <email>diazbarragane@msoe.edu</email>
+        <created-at type="dateTime">2017-09-29T11:34:53-05:00</created-at>
+        <updated-at type="dateTime">2018-11-06T08:19:13-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000809747</id>
+        <name>Erick Jansen</name>
+        <email>jansenej@msoe.edu</email>
+        <created-at type="dateTime">2017-06-19T12:33:56-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T08:00:12-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000888452</id>
+        <name>James Maslowski</name>
+        <email>maslowski@msoe.edu</email>
+        <created-at type="dateTime">2018-02-13T09:17:30-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:43:04-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Manager</job-title>
+        <phone>4142776765</phone>
+        <mobile></mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000844991</id>
+        <name>Kaleb Luedtke</name>
+        <email>luedtkekc@msoe.edu</email>
+        <created-at type="dateTime">2017-09-28T12:48:00-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:03:36-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000574695</id>
+        <name>Shravanthi Bangalore</name>
+        <email>bangalores@msoe.edu</email>
+        <created-at type="dateTime">2016-01-25T16:21:50-06:00</created-at>
+        <updated-at type="dateTime">2018-11-08T18:29:39-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000201774</id>
+    <name>A/V Team</name>
+    <description>Manages Classroom Technology issues</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-06-09T15:20:09-05:00</created-at>
+    <updated-at type="dateTime">2017-07-27T09:13:10-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000688144</id>
+        <name>AV Technician</name>
+        <email>av@msoe.edu</email>
+        <created-at type="dateTime">2016-09-22T13:21:57-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:36:32-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone>414-277-7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000607400</id>
+        <name>Caroline Beavan</name>
+        <email>beavanca@msoe.edu</email>
+        <created-at type="dateTime">2016-03-24T16:13:02-05:00</created-at>
+        <updated-at type="dateTime">2018-11-08T15:00:54-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000845263</id>
+        <name>Eduardo Diaz-Barragan</name>
+        <email>diazbarragane@msoe.edu</email>
+        <created-at type="dateTime">2017-09-29T11:34:53-05:00</created-at>
+        <updated-at type="dateTime">2018-11-06T08:19:13-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000809747</id>
+        <name>Erick Jansen</name>
+        <email>jansenej@msoe.edu</email>
+        <created-at type="dateTime">2017-06-19T12:33:56-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T08:00:12-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000888452</id>
+        <name>James Maslowski</name>
+        <email>maslowski@msoe.edu</email>
+        <created-at type="dateTime">2018-02-13T09:17:30-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:43:04-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Manager</job-title>
+        <phone>4142776765</phone>
+        <mobile></mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000844991</id>
+        <name>Kaleb Luedtke</name>
+        <email>luedtkekc@msoe.edu</email>
+        <created-at type="dateTime">2017-09-28T12:48:00-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:03:36-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000574695</id>
+        <name>Shravanthi Bangalore</name>
+        <email>bangalores@msoe.edu</email>
+        <created-at type="dateTime">2016-01-25T16:21:50-06:00</created-at>
+        <updated-at type="dateTime">2018-11-08T18:29:39-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000203835</id>
+    <name>AD DOMAIN MIGRATION</name>
+    <description>USERS SCHEDULED TO GET LAPTOP DOMAIN MIGRATED</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2016-10-04T11:13:52-05:00</created-at>
+    <updated-at type="dateTime">2016-10-04T11:13:52-05:00</updated-at>
+    <ticket-assign-type type="integer">1</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000260486</id>
+        <name>Chris Hougard</name>
+        <email>hougardc@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T11:50:11-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:20:21-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Analyst</job-title>
+        <phone>414-277-2442</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000064436</id>
+    <name>Blackboard Team</name>
+    <description>Blackboard Issues, Course setups, Access, Course Merge</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-01-30T09:43:51-06:00</created-at>
+    <updated-at type="dateTime">2015-07-17T11:35:01-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000710735</id>
+        <name>Catherine Scholz</name>
+        <email>scholzcd@msoe.edu</email>
+        <created-at type="dateTime">2016-11-14T11:00:27-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:44:28-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Data Applications &amp; Systems Manager</job-title>
+        <phone>414-277-2511</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257203</id>
+        <name>Jasmine Strickler</name>
+        <email>stricklerj@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:35-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:33:18-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Database Analyst                     </job-title>
+        <phone>414-277-2279</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000742586</id>
+        <name>Jimmy Shabangu</name>
+        <email>shabangu@msoe.edu</email>
+        <created-at type="dateTime">2017-02-01T09:36:34-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:26:02-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Web Services Administrator</job-title>
+        <phone>2407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257223</id>
+        <name>Michael Timm</name>
+        <email>timm@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:03:17-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000202310</id>
+    <name>Campus Card</name>
+    <description>This is the group for ID Card issues and AdAstra problems
+If you need a card reproduced for a lost/stolen/wear issue</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-07-17T11:22:01-05:00</created-at>
+    <updated-at type="dateTime">2017-06-30T12:12:31-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000710735</id>
+        <name>Catherine Scholz</name>
+        <email>scholzcd@msoe.edu</email>
+        <created-at type="dateTime">2016-11-14T11:00:27-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:44:28-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Data Applications &amp; Systems Manager</job-title>
+        <phone>414-277-2511</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000950100</id>
+        <name>Chris Kowaleski</name>
+        <email>kowaleski@msoe.edu</email>
+        <created-at type="dateTime">2018-08-30T10:38:51-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:03:17-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Campus Card Administrator </job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257203</id>
+        <name>Jasmine Strickler</name>
+        <email>stricklerj@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:35-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:33:18-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Database Analyst                     </job-title>
+        <phone>414-277-2279</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256907</id>
+        <name>Jason Kann</name>
+        <email>kann@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:42:41-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:00:40-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Infrastructure Support Specialist</job-title>
+        <phone>4142777512</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000742586</id>
+        <name>Jimmy Shabangu</name>
+        <email>shabangu@msoe.edu</email>
+        <created-at type="dateTime">2017-02-01T09:36:34-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:26:02-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Web Services Administrator</job-title>
+        <phone>2407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257223</id>
+        <name>Michael Timm</name>
+        <email>timm@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:03:17-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000064429</id>
+    <name>Change Team</name>
+    <description>Change Management Team</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-01-30T09:43:51-06:00</created-at>
+    <updated-at type="dateTime">2015-07-17T11:33:41-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000888452</id>
+        <name>James Maslowski</name>
+        <email>maslowski@msoe.edu</email>
+        <created-at type="dateTime">2018-02-13T09:17:30-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:43:04-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Manager</job-title>
+        <phone>4142776765</phone>
+        <mobile></mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000064432</id>
+    <name>Database Team</name>
+    <description>Jenzabar, Infomaker, JCIS, CashNet, Power FAIDS</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-01-30T09:43:51-06:00</created-at>
+    <updated-at type="dateTime">2015-07-17T11:25:50-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000857596</id>
+        <name>Austin Rovge</name>
+        <email>rovgea@msoe.edu</email>
+        <created-at type="dateTime">2017-11-06T16:25:18-06:00</created-at>
+        <updated-at type="dateTime">2018-11-12T22:09:05-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>student web guy</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000710735</id>
+        <name>Catherine Scholz</name>
+        <email>scholzcd@msoe.edu</email>
+        <created-at type="dateTime">2016-11-14T11:00:27-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:44:28-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Data Applications &amp; Systems Manager</job-title>
+        <phone>414-277-2511</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257203</id>
+        <name>Jasmine Strickler</name>
+        <email>stricklerj@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:35-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:33:18-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Database Analyst                     </job-title>
+        <phone>414-277-2279</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257223</id>
+        <name>Michael Timm</name>
+        <email>timm@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:03:17-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000203995</id>
+    <name>Inventory Control</name>
+    <description>For Laptop Assignments and for users not in ASAP Passport.</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2016-11-29T10:39:55-06:00</created-at>
+    <updated-at type="dateTime">2016-11-29T10:39:55-06:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000856376</id>
+        <name>Anmol Sharma</name>
+        <email>sharmaanmo@msoe.edu</email>
+        <created-at type="dateTime">2017-11-03T15:35:27-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:18:30-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Inventory Control Specialist </job-title>
+        <phone></phone>
+        <mobile>4142423925</mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000574692</id>
+        <name>Arush Arora</name>
+        <email>aroraa@msoe.edu</email>
+        <created-at type="dateTime">2016-01-25T16:15:02-06:00</created-at>
+        <updated-at type="dateTime">2018-11-08T11:19:07-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Inventory Control &amp; Project Management</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000260486</id>
+        <name>Chris Hougard</name>
+        <email>hougardc@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T11:50:11-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:20:21-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Analyst</job-title>
+        <phone>414-277-2442</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000937426</id>
+        <name>MSOE IT REMOTE SUPPORT</name>
+        <email>msoeitremoteteam@outlook.com</email>
+        <created-at type="dateTime">2018-07-12T14:43:51-05:00</created-at>
+        <updated-at type="dateTime">2018-10-20T16:10:43-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>REMOTE SUPPORT TEAM</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000649843</id>
+        <name>Savanah Cleveland</name>
+        <email>schracksm@msoe.edu</email>
+        <created-at type="dateTime">2016-06-29T09:59:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:54:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Student Manager</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256727</id>
+        <name>Tony Cottrill</name>
+        <email>cottrilla@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:39:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:14:26-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone>414-277-7407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000203694</id>
+    <name>Lost or Stolen Laptop, Withdrawn Student, Part-timers / Adjunct</name>
+    <description>To Evaluate and Review the withdrawal statuses of students that have completely withdrawn from MSOE and apply appropriate fee and recover the asset</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2016-07-15T12:14:30-05:00</created-at>
+    <updated-at type="dateTime">2016-09-01T08:48:11-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000537629</id>
+        <name>Student Accounts</name>
+        <email>payments@msoe.edu</email>
+        <created-at type="dateTime">2015-11-24T12:05:05-06:00</created-at>
+        <updated-at type="dateTime">2018-11-01T11:23:12-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>MSOE Payments</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256727</id>
+        <name>Tony Cottrill</name>
+        <email>cottrilla@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:39:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:14:26-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone>414-277-7407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000202845</id>
+    <name>MSOE Community Team</name>
+    <description>For changing a link, or editing content on the website</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-11-05T09:12:05-06:00</created-at>
+    <updated-at type="dateTime">2015-11-05T09:12:05-06:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000834605</id>
+        <name>Katie Klein-Murphy</name>
+        <email>klein-murphy@msoe.edu</email>
+        <created-at type="dateTime">2017-08-28T19:57:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:30:57-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Digital Marketing Manager</job-title>
+        <phone>(414) 277-7142 </phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000064427</id>
+    <name>Network Team</name>
+    <description>Wired/Wireless issues, Firewall, Network Security</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-01-30T09:43:51-06:00</created-at>
+    <updated-at type="dateTime">2015-07-17T11:25:00-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000897116</id>
+        <name>Jared Liebl</name>
+        <email>liebl@msoe.edu</email>
+        <created-at type="dateTime">2018-03-16T09:27:44-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:56:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Network Administrator</job-title>
+        <phone>414-277-7427</phone>
+        <mobile>414-489-0800</mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256907</id>
+        <name>Jason Kann</name>
+        <email>kann@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:42:41-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:00:40-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Infrastructure Support Specialist</job-title>
+        <phone>4142777512</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000709421</id>
+        <name>Mitch Paulsen</name>
+        <email>paulsenml@msoe.edu</email>
+        <created-at type="dateTime">2016-11-10T13:23:39-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:24:40-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 3</job-title>
+        <phone>2834</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000951887</id>
+        <name>Sydney Park</name>
+        <email>parks@msoe.edu</email>
+        <created-at type="dateTime">2018-09-05T13:09:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:07:56-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Assistant to the System Admin</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000203828</id>
+    <name>PRINTER ISSUES</name>
+    <description>RESPONSIBLE for daily checks on every printer. Troubleshooting and submitting trouble tickets to MBM for maintenance issues</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2016-09-28T15:55:54-05:00</created-at>
+    <updated-at type="dateTime">2016-09-28T15:55:54-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000855980</id>
+        <name>Aaron Lee</name>
+        <email>leeaaro@msoe.edu</email>
+        <created-at type="dateTime">2017-11-02T13:15:57-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:03:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000841240</id>
+        <name>Aditya Beura</name>
+        <email>beuraa@msoe.edu</email>
+        <created-at type="dateTime">2017-09-17T12:17:48-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T15:51:42-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Technician</job-title>
+        <phone>702-793-0597</phone>
+        <mobile>702-793-0597</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000500886</id>
+        <name>Amanda Goff</name>
+        <email>goffam@msoe.edu</email>
+        <created-at type="dateTime">2015-09-28T18:25:24-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T10:09:09-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954134</id>
+        <name>Andrew Thomas</name>
+        <email>thomasak@msoe.edu</email>
+        <created-at type="dateTime">2018-09-11T11:37:08-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:07:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone>414-277-7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000838841</id>
+        <name>Arandu Huerta</name>
+        <email>huertaat@msoe.edu</email>
+        <created-at type="dateTime">2017-09-09T08:13:14-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:22:41-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000779247</id>
+        <name>Brenna Levenick</name>
+        <email>levenickba@msoe.edu</email>
+        <created-at type="dateTime">2017-04-06T14:38:01-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:06:47-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954558</id>
+        <name>Caleb Luedke</name>
+        <email>luedkec@msoe.edu</email>
+        <created-at type="dateTime">2018-09-12T10:48:45-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:59:36-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000840274</id>
+        <name>Charles Jennings</name>
+        <email>jenningsce@msoe.edu</email>
+        <created-at type="dateTime">2017-09-13T15:53:07-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T11:43:57-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000948638</id>
+        <name>Cody Friso</name>
+        <email>frisoc@msoe.edu</email>
+        <created-at type="dateTime">2018-08-24T09:47:36-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T17:02:35-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000940054</id>
+        <name>Daniel Griffith</name>
+        <email>griffithd@msoe.edu</email>
+        <created-at type="dateTime">2018-07-23T08:17:12-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T16:55:52-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2.5 Technician</job-title>
+        <phone></phone>
+        <mobile>262-339-6916</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954556</id>
+        <name>David Schulz</name>
+        <email>schulzd@msoe.edu</email>
+        <created-at type="dateTime">2018-09-12T10:46:16-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:11:35-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>2628930733</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000889700</id>
+        <name>Dylan Critz</name>
+        <email>critzd@msoe.edu</email>
+        <created-at type="dateTime">2018-02-19T09:44:30-06:00</created-at>
+        <updated-at type="dateTime">2018-10-02T18:15:29-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000887702</id>
+        <name>Garrett Wilkins</name>
+        <email>wilkinsgp@msoe.edu</email>
+        <created-at type="dateTime">2018-02-09T08:42:46-06:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:23:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone></phone>
+        <mobile>2628654512</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000904226</id>
+        <name>Isaac Klein</name>
+        <email>kleinip@msoe.edu</email>
+        <created-at type="dateTime">2018-03-23T08:49:53-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T21:09:34-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000962366</id>
+        <name>Isaiah Rondeau</name>
+        <email>rondeaui@msoe.edu</email>
+        <created-at type="dateTime">2018-10-08T11:14:42-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T14:35:19-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone>414.277.7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000856378</id>
+        <name>Jacon Powers</name>
+        <email>powersjd@msoe.edu</email>
+        <created-at type="dateTime">2017-11-03T15:39:59-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:17:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000957188</id>
+        <name>James Lang</name>
+        <email>langjr@msoe.edu</email>
+        <created-at type="dateTime">2018-09-19T14:41:12-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T14:01:25-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>414.277.7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000955532</id>
+        <name>Kyler Johnson</name>
+        <email>johnsonk@msoe.edu</email>
+        <created-at type="dateTime">2018-09-13T12:08:35-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:29:58-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>tier1 Technician</job-title>
+        <phone>414 277 7288</phone>
+        <mobile>9206602614</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000948572</id>
+        <name>Monique Landry</name>
+        <email>landrym@msoe.edu</email>
+        <created-at type="dateTime">2018-08-24T08:09:31-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T14:01:46-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000600488</id>
+        <name>Neha Gholap</name>
+        <email>gholapna@msoe.edu</email>
+        <created-at type="dateTime">2016-03-10T13:34:17-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:12:42-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000692234</id>
+        <name>Rafael Geromel</name>
+        <email>geromelrr@msoe.edu</email>
+        <created-at type="dateTime">2016-09-27T14:14:10-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:36:52-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000696893</id>
+        <name>Saksha Shetty</name>
+        <email>shettys@msoe.edu</email>
+        <created-at type="dateTime">2016-10-10T11:46:11-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:23:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000848536</id>
+        <name>Zachary Seefeld</name>
+        <email>seefeldzd@msoe.edu</email>
+        <created-at type="dateTime">2017-10-10T15:14:23-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T09:53:38-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile>9202380671</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000202538</id>
+    <name>Problem Tickets</name>
+    <description>Queue for tickets that are connected to a problem</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-08-24T10:12:35-05:00</created-at>
+    <updated-at type="dateTime">2015-08-24T10:12:35-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array"/>
+  </group>
+  <group>
+    <id type="integer">1000203743</id>
+    <name>QA</name>
+    <description>Any Laptop submitted for maintenance, repair, re-imaging. Track assets</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2016-08-17T15:36:15-05:00</created-at>
+    <updated-at type="dateTime">2016-08-17T15:55:12-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000841240</id>
+        <name>Aditya Beura</name>
+        <email>beuraa@msoe.edu</email>
+        <created-at type="dateTime">2017-09-17T12:17:48-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T15:51:42-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Technician</job-title>
+        <phone>702-793-0597</phone>
+        <mobile>702-793-0597</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954134</id>
+        <name>Andrew Thomas</name>
+        <email>thomasak@msoe.edu</email>
+        <created-at type="dateTime">2018-09-11T11:37:08-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:07:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone>414-277-7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000838841</id>
+        <name>Arandu Huerta</name>
+        <email>huertaat@msoe.edu</email>
+        <created-at type="dateTime">2017-09-09T08:13:14-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:22:41-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954558</id>
+        <name>Caleb Luedke</name>
+        <email>luedkec@msoe.edu</email>
+        <created-at type="dateTime">2018-09-12T10:48:45-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:59:36-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000840274</id>
+        <name>Charles Jennings</name>
+        <email>jenningsce@msoe.edu</email>
+        <created-at type="dateTime">2017-09-13T15:53:07-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T11:43:57-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954556</id>
+        <name>David Schulz</name>
+        <email>schulzd@msoe.edu</email>
+        <created-at type="dateTime">2018-09-12T10:46:16-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:11:35-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>2628930733</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000889700</id>
+        <name>Dylan Critz</name>
+        <email>critzd@msoe.edu</email>
+        <created-at type="dateTime">2018-02-19T09:44:30-06:00</created-at>
+        <updated-at type="dateTime">2018-10-02T18:15:29-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000887702</id>
+        <name>Garrett Wilkins</name>
+        <email>wilkinsgp@msoe.edu</email>
+        <created-at type="dateTime">2018-02-09T08:42:46-06:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:23:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone></phone>
+        <mobile>2628654512</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000962366</id>
+        <name>Isaiah Rondeau</name>
+        <email>rondeaui@msoe.edu</email>
+        <created-at type="dateTime">2018-10-08T11:14:42-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T14:35:19-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone>414.277.7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000957188</id>
+        <name>James Lang</name>
+        <email>langjr@msoe.edu</email>
+        <created-at type="dateTime">2018-09-19T14:41:12-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T14:01:25-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>414.277.7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000955532</id>
+        <name>Kyler Johnson</name>
+        <email>johnsonk@msoe.edu</email>
+        <created-at type="dateTime">2018-09-13T12:08:35-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:29:58-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>tier1 Technician</job-title>
+        <phone>414 277 7288</phone>
+        <mobile>9206602614</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000937426</id>
+        <name>MSOE IT REMOTE SUPPORT</name>
+        <email>msoeitremoteteam@outlook.com</email>
+        <created-at type="dateTime">2018-07-12T14:43:51-05:00</created-at>
+        <updated-at type="dateTime">2018-10-20T16:10:43-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>REMOTE SUPPORT TEAM</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000692234</id>
+        <name>Rafael Geromel</name>
+        <email>geromelrr@msoe.edu</email>
+        <created-at type="dateTime">2016-09-27T14:14:10-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:36:52-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256727</id>
+        <name>Tony Cottrill</name>
+        <email>cottrilla@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:39:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:14:26-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone>414-277-7407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000848536</id>
+        <name>Zachary Seefeld</name>
+        <email>seefeldzd@msoe.edu</email>
+        <created-at type="dateTime">2017-10-10T15:14:23-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T09:53:38-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile>9202380671</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000205224</id>
+    <name>Remote Support Team</name>
+    <description>Remote support is a IT tool and software that enables an IT technician to connect to a remote computer from their consoles via the Internet and work directly on the remote system in question. Remote Support is able to assist a customer just like it was physically side-by-side.</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2018-06-13T14:01:33-05:00</created-at>
+    <updated-at type="dateTime">2018-06-13T14:01:33-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000856376</id>
+        <name>Anmol Sharma</name>
+        <email>sharmaanmo@msoe.edu</email>
+        <created-at type="dateTime">2017-11-03T15:35:27-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:18:30-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Inventory Control Specialist </job-title>
+        <phone></phone>
+        <mobile>4142423925</mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000574692</id>
+        <name>Arush Arora</name>
+        <email>aroraa@msoe.edu</email>
+        <created-at type="dateTime">2016-01-25T16:15:02-06:00</created-at>
+        <updated-at type="dateTime">2018-11-08T11:19:07-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Inventory Control &amp; Project Management</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000937426</id>
+        <name>MSOE IT REMOTE SUPPORT</name>
+        <email>msoeitremoteteam@outlook.com</email>
+        <created-at type="dateTime">2018-07-12T14:43:51-05:00</created-at>
+        <updated-at type="dateTime">2018-10-20T16:10:43-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>REMOTE SUPPORT TEAM</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000649843</id>
+        <name>Savanah Cleveland</name>
+        <email>schracksm@msoe.edu</email>
+        <created-at type="dateTime">2016-06-29T09:59:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:54:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Student Manager</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256727</id>
+        <name>Tony Cottrill</name>
+        <email>cottrilla@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:39:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:14:26-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone>414-277-7407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000064428</id>
+    <name>Service Request Team</name>
+    <description>New Access Requests, Equipment Requests (cell phone, desk phone, laptop etc.), Software requests</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-01-30T09:43:51-06:00</created-at>
+    <updated-at type="dateTime">2015-07-30T13:47:04-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array"/>
+  </group>
+  <group>
+    <id type="integer">1000203099</id>
+    <name>Software Issues</name>
+    <description>Tickets are placed here for software licenses that need to be added,paid or there are questions on the.</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2016-01-19T14:46:22-06:00</created-at>
+    <updated-at type="dateTime">2016-09-26T16:48:02-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000260732</id>
+        <name>Cameron Wilson</name>
+        <email>wilsoncd@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T11:58:34-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:39:01-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator </job-title>
+        <phone>2625</phone>
+        <mobile>7154395372</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000260486</id>
+        <name>Chris Hougard</name>
+        <email>hougardc@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T11:50:11-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:20:21-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Analyst</job-title>
+        <phone>414-277-2442</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257223</id>
+        <name>Michael Timm</name>
+        <email>timm@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:03:17-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000201962</id>
+    <name>Staff Support (Tier 2)</name>
+    <description>This is the Second Level of Student Workers for Staff Support, Printer Support</description>
+    <escalate-to type="integer">1000079037</escalate-to>
+    <assign-time type="integer">3600</assign-time>
+    <created-at type="dateTime">2015-06-17T10:00:14-05:00</created-at>
+    <updated-at type="dateTime">2017-10-26T10:10:39-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000838841</id>
+        <name>Arandu Huerta</name>
+        <email>huertaat@msoe.edu</email>
+        <created-at type="dateTime">2017-09-09T08:13:14-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:22:41-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000940054</id>
+        <name>Daniel Griffith</name>
+        <email>griffithd@msoe.edu</email>
+        <created-at type="dateTime">2018-07-23T08:17:12-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T16:55:52-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2.5 Technician</job-title>
+        <phone></phone>
+        <mobile>262-339-6916</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000856378</id>
+        <name>Jacon Powers</name>
+        <email>powersjd@msoe.edu</email>
+        <created-at type="dateTime">2017-11-03T15:39:59-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:17:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000680679</id>
+        <name>Karolina Klimont</name>
+        <email>klimontk@msoe.edu</email>
+        <created-at type="dateTime">2016-09-06T11:17:26-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:13:15-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000692555</id>
+        <name>Kasey Horwath</name>
+        <email>horwathkr@msoe.edu</email>
+        <created-at type="dateTime">2016-09-28T08:52:58-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T09:22:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Technical Support Associate</job-title>
+        <phone>4142772833</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000709421</id>
+        <name>Mitch Paulsen</name>
+        <email>paulsenml@msoe.edu</email>
+        <created-at type="dateTime">2016-11-10T13:23:39-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:24:40-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 3</job-title>
+        <phone>2834</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000937426</id>
+        <name>MSOE IT REMOTE SUPPORT</name>
+        <email>msoeitremoteteam@outlook.com</email>
+        <created-at type="dateTime">2018-07-12T14:43:51-05:00</created-at>
+        <updated-at type="dateTime">2018-10-20T16:10:43-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>REMOTE SUPPORT TEAM</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000649843</id>
+        <name>Savanah Cleveland</name>
+        <email>schracksm@msoe.edu</email>
+        <created-at type="dateTime">2016-06-29T09:59:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:54:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Student Manager</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000256727</id>
+        <name>Tony Cottrill</name>
+        <email>cottrilla@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:39:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:14:26-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone>414-277-7407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000064431</id>
+    <name>System Admin/Server Team</name>
+    <description>Active Directory, Servers, FIM, Outlook, User Accounts</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2015-01-30T09:43:51-06:00</created-at>
+    <updated-at type="dateTime">2015-07-17T11:28:08-05:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer" nil="true"/>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000260732</id>
+        <name>Cameron Wilson</name>
+        <email>wilsoncd@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T11:58:34-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:39:01-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator </job-title>
+        <phone>2625</phone>
+        <mobile>7154395372</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000260486</id>
+        <name>Chris Hougard</name>
+        <email>hougardc@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T11:50:11-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:20:21-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Analyst</job-title>
+        <phone>414-277-2442</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000940054</id>
+        <name>Daniel Griffith</name>
+        <email>griffithd@msoe.edu</email>
+        <created-at type="dateTime">2018-07-23T08:17:12-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T16:55:52-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2.5 Technician</job-title>
+        <phone></phone>
+        <mobile>262-339-6916</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000257223</id>
+        <name>Michael Timm</name>
+        <email>timm@msoe.edu</email>
+        <created-at type="dateTime">2015-04-17T10:49:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:03:17-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Systems Administrator</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000684928</id>
+        <name>Richard Thomas</name>
+        <email>thomasrh@msoe.edu</email>
+        <created-at type="dateTime">2016-09-15T12:34:38-05:00</created-at>
+        <updated-at type="dateTime">2018-11-05T16:49:35-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000951887</id>
+        <name>Sydney Park</name>
+        <email>parks@msoe.edu</email>
+        <created-at type="dateTime">2018-09-05T13:09:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:07:56-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Assistant to the System Admin</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000204778</id>
+    <name>TIER 1 TECHNICIAN</name>
+    <description>Provides front-line support to inbound requests. • Conducts initial troubleshooting on a wide range of technology issues. • Escalates unresolved requests to higher tiers. • Dedicated time on phones and web or email requests</description>
+    <escalate-to type="integer">1000079037</escalate-to>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2017-09-14T10:24:34-05:00</created-at>
+    <updated-at type="dateTime">2017-11-09T12:36:56-06:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000855980</id>
+        <name>Aaron Lee</name>
+        <email>leeaaro@msoe.edu</email>
+        <created-at type="dateTime">2017-11-02T13:15:57-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:03:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000841240</id>
+        <name>Aditya Beura</name>
+        <email>beuraa@msoe.edu</email>
+        <created-at type="dateTime">2017-09-17T12:17:48-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T15:51:42-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Technician</job-title>
+        <phone>702-793-0597</phone>
+        <mobile>702-793-0597</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000500886</id>
+        <name>Amanda Goff</name>
+        <email>goffam@msoe.edu</email>
+        <created-at type="dateTime">2015-09-28T18:25:24-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T10:09:09-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954134</id>
+        <name>Andrew Thomas</name>
+        <email>thomasak@msoe.edu</email>
+        <created-at type="dateTime">2018-09-11T11:37:08-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:07:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone>414-277-7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000838841</id>
+        <name>Arandu Huerta</name>
+        <email>huertaat@msoe.edu</email>
+        <created-at type="dateTime">2017-09-09T08:13:14-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:22:41-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000857596</id>
+        <name>Austin Rovge</name>
+        <email>rovgea@msoe.edu</email>
+        <created-at type="dateTime">2017-11-06T16:25:18-06:00</created-at>
+        <updated-at type="dateTime">2018-11-12T22:09:05-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>student web guy</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000470377</id>
+        <name>Benjamin Harris</name>
+        <email>harrisbj@msoe.edu</email>
+        <created-at type="dateTime">2015-08-24T10:27:52-05:00</created-at>
+        <updated-at type="dateTime">2018-11-09T11:12:03-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Director of Desktop Management / End User Services</job-title>
+        <phone>414-277-2253</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000779247</id>
+        <name>Brenna Levenick</name>
+        <email>levenickba@msoe.edu</email>
+        <created-at type="dateTime">2017-04-06T14:38:01-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:06:47-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954558</id>
+        <name>Caleb Luedke</name>
+        <email>luedkec@msoe.edu</email>
+        <created-at type="dateTime">2018-09-12T10:48:45-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:59:36-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000840274</id>
+        <name>Charles Jennings</name>
+        <email>jenningsce@msoe.edu</email>
+        <created-at type="dateTime">2017-09-13T15:53:07-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T11:43:57-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000948638</id>
+        <name>Cody Friso</name>
+        <email>frisoc@msoe.edu</email>
+        <created-at type="dateTime">2018-08-24T09:47:36-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T17:02:35-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000954556</id>
+        <name>David Schulz</name>
+        <email>schulzd@msoe.edu</email>
+        <created-at type="dateTime">2018-09-12T10:46:16-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T16:11:35-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>2628930733</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000889700</id>
+        <name>Dylan Critz</name>
+        <email>critzd@msoe.edu</email>
+        <created-at type="dateTime">2018-02-19T09:44:30-06:00</created-at>
+        <updated-at type="dateTime">2018-10-02T18:15:29-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000845263</id>
+        <name>Eduardo Diaz-Barragan</name>
+        <email>diazbarragane@msoe.edu</email>
+        <created-at type="dateTime">2017-09-29T11:34:53-05:00</created-at>
+        <updated-at type="dateTime">2018-11-06T08:19:13-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000887702</id>
+        <name>Garrett Wilkins</name>
+        <email>wilkinsgp@msoe.edu</email>
+        <created-at type="dateTime">2018-02-09T08:42:46-06:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:23:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone></phone>
+        <mobile>2628654512</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000904226</id>
+        <name>Isaac Klein</name>
+        <email>kleinip@msoe.edu</email>
+        <created-at type="dateTime">2018-03-23T08:49:53-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T21:09:34-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000962366</id>
+        <name>Isaiah Rondeau</name>
+        <email>rondeaui@msoe.edu</email>
+        <created-at type="dateTime">2018-10-08T11:14:42-05:00</created-at>
+        <updated-at type="dateTime">2018-11-10T14:35:19-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 1 Technician</job-title>
+        <phone>414.277.7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000856378</id>
+        <name>Jacon Powers</name>
+        <email>powersjd@msoe.edu</email>
+        <created-at type="dateTime">2017-11-03T15:39:59-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:17:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier 2 Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description></description>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address></address>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000957188</id>
+        <name>James Lang</name>
+        <email>langjr@msoe.edu</email>
+        <created-at type="dateTime">2018-09-19T14:41:12-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T14:01:25-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Tier1 Technician</job-title>
+        <phone>414.277.7288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000844991</id>
+        <name>Kaleb Luedtke</name>
+        <email>luedtkekc@msoe.edu</email>
+        <created-at type="dateTime">2017-09-28T12:48:00-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:03:36-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>AV Technician</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000955532</id>
+        <name>Kyler Johnson</name>
+        <email>johnsonk@msoe.edu</email>
+        <created-at type="dateTime">2018-09-13T12:08:35-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:29:58-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>tier1 Technician</job-title>
+        <phone>414 277 7288</phone>
+        <mobile>9206602614</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000948572</id>
+        <name>Monique Landry</name>
+        <email>landrym@msoe.edu</email>
+        <created-at type="dateTime">2018-08-24T08:09:31-05:00</created-at>
+        <updated-at type="dateTime">2018-11-11T14:01:46-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000937426</id>
+        <name>MSOE IT REMOTE SUPPORT</name>
+        <email>msoeitremoteteam@outlook.com</email>
+        <created-at type="dateTime">2018-07-12T14:43:51-05:00</created-at>
+        <updated-at type="dateTime">2018-10-20T16:10:43-05:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>REMOTE SUPPORT TEAM</job-title>
+        <phone>4142777288</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000600488</id>
+        <name>Neha Gholap</name>
+        <email>gholapna@msoe.edu</email>
+        <created-at type="dateTime">2016-03-10T13:34:17-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T14:12:42-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000079037</id>
+        <name>Peter Pfister</name>
+        <email>pfister@msoe.edu</email>
+        <created-at type="dateTime">2015-01-30T09:46:21-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:08:48-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Help Desk Coordinator</job-title>
+        <phone>414.277.7202</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000692234</id>
+        <name>Rafael Geromel</name>
+        <email>geromelrr@msoe.edu</email>
+        <created-at type="dateTime">2016-09-27T14:14:10-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T15:36:52-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000696893</id>
+        <name>Saksha Shetty</name>
+        <email>shettys@msoe.edu</email>
+        <created-at type="dateTime">2016-10-10T11:46:11-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:23:11-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000649843</id>
+        <name>Savanah Cleveland</name>
+        <email>schracksm@msoe.edu</email>
+        <created-at type="dateTime">2016-06-29T09:59:50-05:00</created-at>
+        <updated-at type="dateTime">2018-11-12T16:54:06-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Student Manager</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000848536</id>
+        <name>Zachary Seefeld</name>
+        <email>seefeldzd@msoe.edu</email>
+        <created-at type="dateTime">2017-10-10T15:14:23-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T09:53:38-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title></job-title>
+        <phone></phone>
+        <mobile>9202380671</mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+  <group>
+    <id type="integer">1000204183</id>
+    <name>Web Services Team</name>
+    <description>Web Services</description>
+    <escalate-to type="integer" nil="true"/>
+    <assign-time type="integer">1800</assign-time>
+    <created-at type="dateTime">2017-03-01T10:46:28-06:00</created-at>
+    <updated-at type="dateTime">2017-03-01T10:46:28-06:00</updated-at>
+    <ticket-assign-type type="integer">0</ticket-assign-type>
+    <business-calendar-id type="integer">1000004961</business-calendar-id>
+    <agents type="array">
+      <agent type="User">
+        <id type="integer">1000857596</id>
+        <name>Austin Rovge</name>
+        <email>rovgea@msoe.edu</email>
+        <created-at type="dateTime">2017-11-06T16:25:18-06:00</created-at>
+        <updated-at type="dateTime">2018-11-12T22:09:05-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>student web guy</job-title>
+        <phone></phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000710735</id>
+        <name>Catherine Scholz</name>
+        <email>scholzcd@msoe.edu</email>
+        <created-at type="dateTime">2016-11-14T11:00:27-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T10:44:28-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Data Applications &amp; Systems Manager</job-title>
+        <phone>414-277-2511</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000742586</id>
+        <name>Jimmy Shabangu</name>
+        <email>shabangu@msoe.edu</email>
+        <created-at type="dateTime">2017-02-01T09:36:34-06:00</created-at>
+        <updated-at type="dateTime">2018-11-13T13:26:02-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Web Services Administrator</job-title>
+        <phone>2407</phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+      <agent type="User">
+        <id type="integer">1000834605</id>
+        <name>Katie Klein-Murphy</name>
+        <email>klein-murphy@msoe.edu</email>
+        <created-at type="dateTime">2017-08-28T19:57:47-05:00</created-at>
+        <updated-at type="dateTime">2018-11-13T12:30:57-06:00</updated-at>
+        <active type="boolean">true</active>
+        <job-title>Digital Marketing Manager</job-title>
+        <phone>(414) 277-7142 </phone>
+        <mobile></mobile>
+        <description nil="true"/>
+        <time-zone>Central Time (US &amp; Canada)</time-zone>
+        <deleted type="boolean">false</deleted>
+        <language>en</language>
+        <address nil="true"/>
+        <external-id nil="true"/>
+        <helpdesk-agent type="boolean">true</helpdesk-agent>
+      </agent>
+    </agents>
+  </group>
+</groups>

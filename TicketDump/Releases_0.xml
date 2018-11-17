@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itil-releases type="array">
+  <release>
+    <id type="integer">1000005118</id>
+    <requester-id type="integer">1000079033</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <display-id type="integer">1</display-id>
+    <approval-status type="integer" nil="true"/>
+    <planned-start-date type="dateTime">2015-02-13T09:43:57-06:00</planned-start-date>
+    <planned-end-date type="dateTime">2015-02-13T09:43:57-06:00</planned-end-date>
+    <work-start-date type="dateTime">2015-02-13T09:43:57-06:00</work-start-date>
+    <work-end-date type="dateTime">2015-02-13T09:43:57-06:00</work-end-date>
+    <deleted type="boolean">false</deleted>
+    <subject>Replacing Exchange Server 3 (ES3)</subject>
+    <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <requester-name>Rachel</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <rel-type-name>Minor</rel-type-name>
+    <department-name nil="true"/>
+    <release-body type="Itil::ReleaseBody">
+      <id type="integer">1000005118</id>
+      <release-id type="integer">1000005118</release-id>
+      <description nil="true"/>
+      <description-html>&lt;div&gt;Hi Team,&lt;br/&gt;&lt;br/&gt; Exchange Server 3 needs immediate replacement.  Please expedite this. &lt;br/&gt;&lt;br/&gt; Regards &lt;br/&gt; Rachel&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+    </release-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </release>
+</itil-releases>

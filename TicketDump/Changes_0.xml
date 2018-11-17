@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itil-changes type="array">
+  <change>
+    <id type="integer">1000005516</id>
+    <display-id type="integer">1</display-id>
+    <requester-id type="integer">1000079033</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <release-id type="integer">1000005118</release-id>
+    <deleted type="boolean">false</deleted>
+    <subject>Getting ES3 back up to speed</subject>
+    <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime" nil="true"/>
+    <planned-end-date type="dateTime" nil="true"/>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Rachel</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-release>Replacing Exchange Server 3 (ES3)</assoc-release>
+    <risk-type>Low</risk-type>
+    <change-type-name>Minor</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-plan type="Itil::ChangePlan">
+      <id type="integer">1000005070</id>
+      <change-id type="integer">1000005516</change-id>
+      <user-id type="integer">1000079033</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Exchange Server 3 has gone down due to a CPU spike</description>
+      <description-html>&lt;div&gt; 1.Backup existing information from the old server &lt;br&gt; 2.Setup the new server with Windows Server 2008 &lt;br&gt; 3.Install Exchange Server and configure it &lt;br&gt; 4.Import data from the backup and get the server up and running.&lt;/div&gt;</description-html>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+      <attachments type="array"/>
+    </change-plan>
+    <change-reason type="Itil::ChangeReason">
+      <id type="integer">1000005105</id>
+      <change-id type="integer">1000005516</change-id>
+      <user-id type="integer">1000079033</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Exchange Server 3 has gone down due to a CPU spike. Rebooting doesn’t solve the problem.</description>
+      <description-html>&lt;div&gt; Exchange Server 3 has gone down due to a CPU spike. Rebooting doesn’t solve the problem. &lt;/div&gt;</description-html>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+      <attachments type="array"/>
+    </change-reason>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000005516</id>
+      <change-id type="integer">1000005516</change-id>
+      <description nil="true"/>
+      <description-html>&lt;div&gt;Hi Team, &lt;br/&gt;&lt;br/&gt; One of our email servers, Exchange Server (ES3) has been acting up.  We tried rebooting it, but that didn’t help. We need to get it replaced ASAP. &lt;br/&gt;&lt;br/&gt;Regards&lt;br/&gt; Rachel&lt;br/&gt; &lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000030446</id>
+    <display-id type="integer">2</display-id>
+    <requester-id type="integer">1000257150</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Printing issue</subject>
+    <created-at type="dateTime">2016-04-08T08:49:27-05:00</created-at>
+    <updated-at type="dateTime">2016-08-22T14:53:11-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime" nil="true"/>
+    <planned-end-date type="dateTime" nil="true"/>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Dr. David Schmitz</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Minor</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000030446</id>
+      <change-id type="integer">1000030446</change-id>
+      <description>Dave Schmitz is having an issue with printing.  When he sends a document with color in it to Follow You Printing, it asks him to scan his ID card for money.  Even when he tells the document to print in black and white, the printer still
+ tells him he needs $$$.  Can you fix this for him? 
+ 
+ 
+   
+ Kim Benson  
+ Administrative Assistant  
+ Rader School of Business  
+ Milwaukee School of Engineering  
+ 1025 N. Broadway  
+ Milwaukee, WI  53202  
+ (414) 277-7279  
+ benson@msoe.edu  
+ 
+  </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;
+&lt;br&gt;&lt;div class="WordSection1"&gt;
+&lt;div class="MsoNormal"&gt;Dave Schmitz is having an issue with printing.  When he sends a document with color in it to Follow You Printing, it asks him to scan his ID card for money.  Even when he tells the document to print in black and white, the printer still
+ tells him he needs $$$.  Can you fix this for him?&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;Kim Benson&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;Administrative Assistant&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;Rader School of Business&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;Milwaukee School of Engineering&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;1025 N. Broadway&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;Milwaukee, WI  53202&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;(414) 277-7279&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-family:"Arial",sans-serif'&gt;&lt;a href="mailto:benson@msoe.edu"&gt;benson@msoe.edu&lt;/a&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-04-08T08:49:27-05:00</created-at>
+      <updated-at type="dateTime">2016-04-08T08:49:27-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000015196</id>
+        <body>Closing ticket - this should be reported as an incident, not a change. Changes are for system and network changes implemented by IT, or requests for changes to IT.</body>
+        <body-html>&lt;div&gt;Closing ticket - this should be reported as an incident, not a change. Changes are for system and network changes implemented by IT, or requests for changes to IT.&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Change</notable-type>
+        <notable-id type="integer">1000030446</notable-id>
+        <user-id type="integer">1000256778</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-08-22T14:53:06-05:00</created-at>
+        <updated-at type="dateTime">2016-08-22T14:53:06-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000034597</id>
+    <display-id type="integer">3</display-id>
+    <requester-id type="integer">1000665059</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Rewiring of CC server room.</subject>
+    <created-at type="dateTime">2016-08-19T12:53:42-05:00</created-at>
+    <updated-at type="dateTime">2016-08-22T14:33:29-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime">2016-08-21T12:00:00-05:00</planned-start-date>
+    <planned-end-date type="dateTime">2016-08-23T00:00:00-05:00</planned-end-date>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Medium</impact-name>
+    <requester-name>Xay Xiong</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Major</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-plan type="Itil::ChangePlan">
+      <id type="integer">1000025178</id>
+      <change-id type="integer">1000034597</change-id>
+      <user-id type="integer">1000665059</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>8/21/2016 12:00pm to 11:59pm.</description>
+      <description-html>&lt;div&gt;8/21/2016 12:00pm to 11:59pm.&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-08-21T20:18:10-05:00</created-at>
+      <updated-at type="dateTime">2016-08-21T20:18:10-05:00</updated-at>
+      <attachments type="array">
+        <attachment>
+          <id type="integer">1004430147</id>
+          <content-file-name>network_change.vsdx</content-file-name>
+          <content-content-type>application/octet-stream</content-content-type>
+          <content-file-size type="integer">3966099</content-file-size>
+          <created-at type="dateTime">2016-08-21T20:18:10-05:00</created-at>
+          <updated-at type="dateTime">2016-08-21T20:18:10-05:00</updated-at>
+          <attachment_url>https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/1004430147/original/network_change.vsdx?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIDQH3JYDERX5MLGQ%2F20181113%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20181113T221935Z&amp;X-Amz-Expires=86400&amp;X-Amz-Signature=97023c0bd86555fa40992794b660d6ac7a6ac0d91361f78d3ba5a0a9805478af&amp;X-Amz-SignedHeaders=Host</attachment_url>
+        </attachment>
+      </attachments>
+    </change-plan>
+    <backout-plan type="Itil::BackoutPlan">
+      <id type="integer">1000008848</id>
+      <change-id type="integer">1000034597</change-id>
+      <user-id type="integer">1000665059</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Connectivity is made one link at a time.  A verification of administrative connectivity to the 7100 switch and core is performed after each connection,  Should issues occur, we can easily roll back one step since each step is checked as we progressed.</description>
+      <description-html>&lt;div&gt;Connectivity is made one link at a time.  A verification of administrative connectivity to the 7100 switch and core is performed after each connection,  Should issues occur, we can easily roll back one step since each step is checked as we progressed.&lt;/div&gt;</description-html>
+      <created-at type="dateTime">2016-08-21T20:23:48-05:00</created-at>
+      <updated-at type="dateTime">2016-08-21T20:23:48-05:00</updated-at>
+      <attachments type="array"/>
+    </backout-plan>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000034597</id>
+      <change-id type="integer">1000034597</change-id>
+      <description>Issue to resolve: With the current network setup, we can not bring up the new Dell server chassis, since this creates switching loop. 
+   
+ A new network reconfiguration is required to prevent this physical loop so the new Dell server chassis can function properly. The changes also simplify the connections to allow for easier identification of issues in the future.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Issue to resolve: With the current network setup, we can not bring up the new Dell server chassis, since this creates switching loop.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;A new network reconfiguration is required to prevent this physical loop so the new Dell server chassis can function properly. The changes also simplify the connections to allow for easier identification of issues in the future.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-08-19T12:53:42-05:00</created-at>
+      <updated-at type="dateTime">2016-08-19T12:53:42-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <change_date_14966>2016-08-21 12:00:00 -0500</change_date_14966>
+      <test_plan_14966>After the connections are in place, we will test all connectivity to the servers and verify that the SAN is online and functioning properly.</test_plan_14966>
+      <backout_plan_14966>All device settings are backed up.  Current connections are labeled and documented.  Should issues occur, we can revert back to the current configuration and retest all connections to ensure connectivity.  </backout_plan_14966>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000034857</id>
+    <display-id type="integer">4</display-id>
+    <requester-id type="integer">1000257007</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064432</group-id>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Upgrade to PowerFAIDS Release 21.4, Net Partner Release 21.4, and Web Client Release 21.4</subject>
+    <created-at type="dateTime">2016-08-29T17:39:06-05:00</created-at>
+    <updated-at type="dateTime">2016-08-29T17:39:06-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime">2016-09-20T19:00:00-05:00</planned-start-date>
+    <planned-end-date type="dateTime">2016-09-20T21:00:00-05:00</planned-end-date>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Steven Midthun</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Database Team</group-name>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Standard</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-impact type="Itil::ChangeImpact">
+      <id type="integer">1000009724</id>
+      <change-id type="integer">1000034857</change-id>
+      <user-id type="integer">1000257203</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>PowerFAIDS, Net Partner (myfinancialaid.msoe.edu), and web client will be down. This will affect PowerFAIDS users and all students. </description>
+      <description-html>&lt;div&gt;PowerFAIDS, Net Partner (myfinancialaid.msoe.edu), and web client will be down. This will affect PowerFAIDS users and all students. &lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-08-29T17:44:16-05:00</created-at>
+      <updated-at type="dateTime">2016-08-29T17:44:16-05:00</updated-at>
+      <attachments type="array"/>
+    </change-impact>
+    <change-reason type="Itil::ChangeReason">
+      <id type="integer">1000025817</id>
+      <change-id type="integer">1000034857</change-id>
+      <user-id type="integer">1000257203</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> New releases are available.     PowerFAIDS 21.4 includes: 
+  •	2017/2018 Parameter Roll Forward
+  •	2017/2018 CommonLine Loan processing
+  •	2017/2018 Disbursement Authorization
+  •	2017/2018 Disbursement Authorization Reconciliation
+  •	2017/2018 External Award Import
+  •	2017/2018 External Disbursement Import
+  •	2017/2018 IDOC Submission
+  •	Direct Loan Fee increases
+  •	Student Migration
+  •	Modified Pell behavior
+  •	U.S. Department of Education’s Fiscal Operations Report for 2015/2016 and Application to Participate for 2017/2018
+  •	Liaison Committee on Medical Education
+  •	CCC-MIS Report     
+  •	Enhanced Other Years Screen Functionality
+  •	Projection Reporting using point in time data
+  •	Reconcile Student Data for updated POE and Fund parameters
+  •	Awarding Estimated Funds 
+  •	Document Management across Multiple Years
+  •	Global Comments
+  
+     PowerFAIDS 21.4 includes several background enhancements to capture point in time data to assist you with projection reporting due to Early FAFSA and Prior Prior Year processing in 2017/2018.  As part of this release we have developed a custom report, Projection Reporting which can be downloaded from the PowerFAIDS Resource Center&gt;Downloads&gt;Custom Reports.  You can import, modify and use this report format based on your institutions need for projection reporting or using the mnemonics created in this release create your own projection report.  
+  
+     Net Partner 21.4  includes:
+  •	Support for customizable Financial Aid Disclosure
+  •	Estimated Awards Identifier
+  
+     Web Client 21.4 includes: 
+  •	Global Comments display
+  •	Estimated Awards display 
+</description>
+      <description-html>&lt;div&gt;New releases are available.&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;PowerFAIDS 21.4 includes: 
+&lt;/p&gt;&lt;p&gt;•	2017/2018 Parameter Roll Forward
+&lt;/p&gt;&lt;p&gt;•	2017/2018 CommonLine Loan processing
+&lt;/p&gt;&lt;p&gt;•	2017/2018 Disbursement Authorization
+&lt;/p&gt;&lt;p&gt;•	2017/2018 Disbursement Authorization Reconciliation
+&lt;/p&gt;&lt;p&gt;•	2017/2018 External Award Import
+&lt;/p&gt;&lt;p&gt;•	2017/2018 External Disbursement Import
+&lt;/p&gt;&lt;p&gt;•	2017/2018 IDOC Submission
+&lt;/p&gt;&lt;p&gt;•	Direct Loan Fee increases
+&lt;/p&gt;&lt;p&gt;•	Student Migration
+&lt;/p&gt;&lt;p&gt;•	Modified Pell behavior
+&lt;/p&gt;&lt;p&gt;•	U.S. Department of Education’s Fiscal Operations Report for 2015/2016 and Application to Participate for 2017/2018
+&lt;/p&gt;&lt;p&gt;•	Liaison Committee on Medical Education
+&lt;/p&gt;&lt;p&gt;•	CCC-MIS Report     
+&lt;/p&gt;&lt;p&gt;•	Enhanced Other Years Screen Functionality
+&lt;/p&gt;&lt;p&gt;•	Projection Reporting using point in time data
+&lt;/p&gt;&lt;p&gt;•	Reconcile Student Data for updated POE and Fund parameters
+&lt;/p&gt;&lt;p&gt;•	Awarding Estimated Funds 
+&lt;/p&gt;&lt;p&gt;•	Document Management across Multiple Years
+&lt;/p&gt;&lt;p&gt;•	Global Comments
+&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;PowerFAIDS 21.4 includes several background enhancements to capture point in time data to assist you with projection reporting due to Early FAFSA and Prior Prior Year processing in 2017/2018.  As part of this release we have developed a custom report, Projection Reporting which can be downloaded from the PowerFAIDS Resource Center&amp;gt;Downloads&amp;gt;Custom Reports.  You can import, modify and use this report format based on your institutions need for projection reporting or using the mnemonics created in this release create your own projection report.  
+&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Net Partner 21.4  includes:
+&lt;/p&gt;&lt;p&gt;•	Support for customizable Financial Aid Disclosure
+&lt;/p&gt;&lt;p&gt;•	Estimated Awards Identifier
+&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Web Client 21.4 includes: 
+&lt;/p&gt;&lt;p&gt;•	Global Comments display
+&lt;/p&gt;&lt;p&gt;•	Estimated Awards display&lt;/p&gt;
+</description-html>
+      <created-at type="dateTime">2016-08-29T17:42:39-05:00</created-at>
+      <updated-at type="dateTime">2016-08-29T17:48:16-05:00</updated-at>
+      <attachments type="array"/>
+    </change-reason>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000034857</id>
+      <change-id type="integer">1000034857</change-id>
+      <description>Jenzabar Managed Services will upgrade our version of PowerFAIDS, Net Partner (myfinancialaid.msoe.edu) and the web client.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Jenzabar Managed Services will upgrade our version of PowerFAIDS, Net Partner (myfinancialaid.msoe.edu) and the web client.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-08-29T17:39:06-05:00</created-at>
+      <updated-at type="dateTime">2016-08-29T17:39:06-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000015613</id>
+        <body>Email notification about the downtime was sent to All Staff, All Falculty and All Students on 09/06/2016.</body>
+        <body-html>&lt;div&gt;Email notification about the downtime was sent to All Staff, All Falculty and All Students on 09/06/2016.&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Change</notable-type>
+        <notable-id type="integer">1000034857</notable-id>
+        <user-id type="integer">1000665059</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-09-12T12:16:24-05:00</created-at>
+        <updated-at type="dateTime">2016-09-12T12:16:24-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+      <change_date_14966>2016-09-20 19:00:00 -0500</change_date_14966>
+      <test_plan_14966>Jenzabar Product Development is testing compatibility between this PowerFAIDS release and our version of Jenzabar. Product Development will send out notification confirming that there are no issues before Managed Services performs the upgrade. 
+
+Once the upgrade has been completed, we will log in to PowerFAIDS and myfinancialaid.msoe.edu to test before 8am the next day.</test_plan_14966>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000035301</id>
+    <display-id type="integer">5</display-id>
+    <requester-id type="integer">1000526621</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Blackboard production server upgrade from 3000.1.0-rel.52+991d2bf to 3000.1.2-rel.52+af05c84</subject>
+    <created-at type="dateTime">2016-09-08T13:38:21-05:00</created-at>
+    <updated-at type="dateTime">2016-10-21T11:20:43-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime">2016-09-24T02:30:00-05:00</planned-start-date>
+    <planned-end-date type="dateTime">2016-09-24T14:30:00-05:00</planned-end-date>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Medium</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Andrew Holmes</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Standard</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-reason type="Itil::ChangeReason">
+      <id type="integer">1000026055</id>
+      <change-id type="integer">1000035301</change-id>
+      <user-id type="integer">1000526621</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>This update fixes various bugs.  One in particular that has caused concern is statistics tracking.</description>
+      <description-html>&lt;div&gt;This update fixes various bugs.  One in particular that has caused concern is statistics tracking.&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-09-08T13:40:27-05:00</created-at>
+      <updated-at type="dateTime">2016-09-08T13:40:27-05:00</updated-at>
+      <attachments type="array"/>
+    </change-reason>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000035301</id>
+      <change-id type="integer">1000035301</change-id>
+      <description>The Blackboard production server upgrade is scheduled to start on September 24th at 2:30 AM CDT. It should be complete on or before 2:30 PM CDT the same day. 
+ PLEASE NOTE: If you need to cancel the upgrade for any reason please call Blackboard Support at 1-888-788-5264.   Replying to the case or closing the case does not complete the cancelation process. You should not consider the upgrade canceled until you have received written confirmation from Blackboard.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div style="margin-bottom:15px;"&gt;The Blackboard production server upgrade is scheduled to start on September 24th at 2:30 AM CDT. It should be complete on or before 2:30 PM &lt;span&gt;CDT the same day.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;PLEASE NOTE: If you need to cancel the upgrade for any reason please call Blackboard Support at 1-888-788-5264.   Replying to the case or closing the case does not complete the cancelation process. You should not consider the upgrade canceled until you have received written confirmation from Blackboard.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-09-08T13:38:21-05:00</created-at>
+      <updated-at type="dateTime">2016-09-08T13:38:21-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000015614</id>
+        <body>Email Notification regarding Blackboard downtime (between 02:30am and 02:30pm on Sept. 24th) was sent to All Faculty, All Staff and All Students on 09/08/2016.</body>
+        <body-html>&lt;div&gt;Email Notification regarding Blackboard downtime (between 02:30am and 02:30pm on Sept. 24th) was sent to All Faculty, All Staff and All Students on 09/08/2016.&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Change</notable-type>
+        <notable-id type="integer">1000035301</notable-id>
+        <user-id type="integer">1000665059</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-09-12T12:18:57-05:00</created-at>
+        <updated-at type="dateTime">2016-09-12T12:18:57-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+      <test_plan_14966>Already tested in the Blackboard Test environment without issue.</test_plan_14966>
+      <backout_plan_14966>We can cancel at any time by contacting Blackboard.</backout_plan_14966>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000036669</id>
+    <display-id type="integer">6</display-id>
+    <requester-id type="integer">1000260486</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064431</group-id>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Move Box to ADFS SSO</subject>
+    <created-at type="dateTime">2016-10-14T11:22:49-05:00</created-at>
+    <updated-at type="dateTime">2016-10-14T11:23:08-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime">2016-10-20T18:00:00-05:00</planned-start-date>
+    <planned-end-date type="dateTime">2016-10-20T18:15:00-05:00</planned-end-date>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Urgent</priority-name>
+    <status-name>Awaiting Approval</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Chris Hougard</requester-name>
+    <owner-name nil="true"/>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Emergency</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-impact type="Itil::ChangeImpact">
+      <id type="integer">1000010684</id>
+      <change-id type="integer">1000036669</change-id>
+      <user-id type="integer">1000260486</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> Users may be unable to sign in to Box if the change does not work. 
+ Users will be shown the new ADFS sign in page</description>
+      <description-html>&lt;ul&gt;
+&lt;li&gt; Users may be unable to sign in to Box if the change does not work.&lt;/li&gt;
+&lt;li&gt;Users will be shown the new ADFS sign in page&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description-html>
+      <created-at type="dateTime">2016-10-14T11:24:51-05:00</created-at>
+      <updated-at type="dateTime">2016-10-14T11:24:51-05:00</updated-at>
+      <attachments type="array"/>
+    </change-impact>
+    <change-plan type="Itil::ChangePlan">
+      <id type="integer">1000026302</id>
+      <change-id type="integer">1000036669</change-id>
+      <user-id type="integer">1000260486</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> Box will update the redirect on their end to point to adfs.msoe.edu. 
+ The box.msoe.edu redirect is being changed to redirect to msoe.box.com so it follows Box.</description>
+      <description-html>&lt;ul&gt;
+&lt;li&gt; Box will update the redirect on their end to point to adfs.msoe.edu.&lt;/li&gt;
+&lt;li&gt;The box.msoe.edu redirect is being changed to redirect to msoe.box.com so it follows Box.&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description-html>
+      <created-at type="dateTime">2016-10-14T11:25:56-05:00</created-at>
+      <updated-at type="dateTime">2016-10-14T11:25:56-05:00</updated-at>
+      <attachments type="array"/>
+    </change-plan>
+    <change-reason type="Itil::ChangeReason">
+      <id type="integer">1000026856</id>
+      <change-id type="integer">1000036669</change-id>
+      <user-id type="integer">1000260486</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> PingFederate is expiring</description>
+      <description-html>&lt;div&gt; PingFederate is expiring&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-10-14T11:25:07-05:00</created-at>
+      <updated-at type="dateTime">2016-10-14T11:25:07-05:00</updated-at>
+      <attachments type="array"/>
+    </change-reason>
+    <backout-plan type="Itil::BackoutPlan">
+      <id type="integer">1000009904</id>
+      <change-id type="integer">1000036669</change-id>
+      <user-id type="integer">1000260486</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> Box can revert to the old redirect URL if users are unable to authenticate.</description>
+      <description-html>&lt;div&gt; Box can revert to the old redirect URL if users are unable to authenticate.&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-10-14T11:26:15-05:00</created-at>
+      <updated-at type="dateTime">2016-10-14T11:26:15-05:00</updated-at>
+      <attachments type="array"/>
+    </backout-plan>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000036669</id>
+      <change-id type="integer">1000036669</change-id>
+      <description> Box needs to be switched over to ADFS before our PingFederate license expires.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Box needs to be switched over to ADFS before our PingFederate license expires.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-14T11:22:49-05:00</created-at>
+      <updated-at type="dateTime">2016-10-14T11:23:08-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <change_date_14966>2016-10-20 18:00:00 -0500</change_date_14966>
+      <test_plan_14966>Test authenticating to Box using an MSOE account</test_plan_14966>
+      <backout_plan_14966>Box can revert to PingFederate if the change does not work. They will have an engineer on-call.</backout_plan_14966>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000036742</id>
+    <display-id type="integer">7</display-id>
+    <requester-id type="integer">1000256778</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Network and Routing Changes</subject>
+    <created-at type="dateTime">2016-10-17T12:07:30-05:00</created-at>
+    <updated-at type="dateTime">2016-10-17T12:07:30-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime">2016-10-21T02:00:00-05:00</planned-start-date>
+    <planned-end-date type="dateTime">2016-10-21T08:00:00-05:00</planned-end-date>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>High</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>High</impact-name>
+    <requester-name>Paul Fabian</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-release nil="true"/>
+    <risk-type>Medium</risk-type>
+    <change-type-name>Standard</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000036742</id>
+      <change-id type="integer">1000036742</change-id>
+      <description>Changes to OSPF routing commands, passive VLANS, Redistribute Static, removal of old DHCP Helper addresses. Will do testing after install. Limited outages occuring in certain buildings may last until 6am, testing will occur until 8am.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Changes to OSPF routing commands, passive VLANS, Redistribute Static, removal of old DHCP Helper addresses. Will do testing after install. Limited outages occuring in certain buildings may last until 6am, testing will occur until 8am.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-17T12:07:30-05:00</created-at>
+      <updated-at type="dateTime">2016-10-17T12:07:30-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <change_date_14966>2016-10-21 02:00:00 -0500</change_date_14966>
+      <test_plan_14966>Will review OSPF messages from routers between buildings, and test connectivity between systems.</test_plan_14966>
+      <backout_plan_14966>Will make copies of configs that we can redistribute in the even of a critical failure. Can console directly into cores in the event of loss of conectivity.</backout_plan_14966>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000036926</id>
+    <display-id type="integer">8</display-id>
+    <requester-id type="integer">1000526621</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Turnitin Service Alert</subject>
+    <created-at type="dateTime">2016-10-21T13:50:55-05:00</created-at>
+    <updated-at type="dateTime">2016-10-21T13:50:55-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime">2016-11-05T08:00:00-05:00</planned-start-date>
+    <planned-end-date type="dateTime">2016-11-05T13:00:00-05:00</planned-end-date>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Medium</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Medium</impact-name>
+    <requester-name>Andrew Holmes</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Standard</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000036926</id>
+      <change-id type="integer">1000036926</change-id>
+      <description>Planned maintenance, Turnitin, TurnitinUK, iThenticate, WriteCheck and Integrations -Saturday November 5 
+ On Saturday November 5, the following services will be unavailable from 6am - 11am PST/1pm – 6pm GMT/12am – 4am AEDT (click here for your local time) due to necessary scheduled maintenance: 
+ •    Turnitin (including mobile) 
+ •    Blackboard Integration 
+   
+ This maintenance will be performed on internal network hardware to increase capacity and ensure continued dependable service to our customers. 
+ Where applicable, please be aware no submissions or grading will be possible through any of the services listed above during this time. We therefore advise that submission deadlines be set outside of this maintenance window.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;table cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div style="margin-bottom:15px;"&gt;&lt;b&gt;Planned maintenance, Turnitin, TurnitinUK, iThenticate, WriteCheck and Integrations -Saturday November 5&lt;/b&gt;&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;On Saturday November 5, the following services will be unavailable from 6am - 11am PST/1pm – 6pm GMT/12am – 4am AEDT (click &lt;a href="http://go.turnitin.com/e/45292/ce-iso-20161105T06-p1-388-ah-5/8q1tp7/625056430" rel="noreferrer"&gt;here&lt;/a&gt; for your local time) due to necessary scheduled maintenance:&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;•    Turnitin (including mobile)&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;•    Blackboard Integration&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;This maintenance will be performed on internal network hardware to increase capacity and ensure continued dependable service to our customers.&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;Where applicable, please be aware no submissions or grading will be possible through any of the services listed above during this time. We therefore advise that submission deadlines be set outside of this maintenance window.&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-21T13:50:55-05:00</created-at>
+      <updated-at type="dateTime">2016-10-21T13:50:55-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000039868</id>
+    <display-id type="integer">9</display-id>
+    <requester-id type="integer">1000498730</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>CC126 Card Reader not Working</subject>
+    <created-at type="dateTime">2017-01-30T09:00:07-06:00</created-at>
+    <updated-at type="dateTime">2017-04-27T16:50:04-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime" nil="true"/>
+    <planned-end-date type="dateTime" nil="true"/>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer">1000086641</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>TIER 1 TECHNICIAN</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Minor</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name>Alumni</department-name>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000039923</id>
+      <change-id type="integer">1000039868</change-id>
+      <description>The card reader for CC126 does not open the door. When used, it will display a green light, but not unlock. The room is needed for class.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;br&gt;&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;The card reader for CC126 does not open the door. When used, it will display a green light, but not unlock. The room is needed for class.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-01-30T09:00:07-06:00</created-at>
+      <updated-at type="dateTime">2017-01-30T09:00:07-06:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000040482</id>
+    <display-id type="integer">10</display-id>
+    <requester-id type="integer">1000747599</requester-id>
+    <owner-id type="integer">1000079037</owner-id>
+    <group-id type="integer">1000201961</group-id>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>password reset request</subject>
+    <created-at type="dateTime">2017-02-14T15:16:58-06:00</created-at>
+    <updated-at type="dateTime">2017-02-14T15:16:58-06:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime" nil="true"/>
+    <planned-end-date type="dateTime" nil="true"/>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Houghtonp</requester-name>
+    <owner-name>Peter Pfister</owner-name>
+    <group-name nil="true"/>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Minor</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000040549</id>
+      <change-id type="integer">1000040482</change-id>
+      <description>Called several times for password reset request. Tried to solve the issue over the phone but, she needs assistance. 
+   
+ Thank you</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Called several times for password reset request. Tried to solve the issue over the phone but, she needs assistance.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Thank you&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-02-14T15:16:58-06:00</created-at>
+      <updated-at type="dateTime">2017-02-14T15:16:58-06:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </change>
+  <change>
+    <id type="integer">1000053184</id>
+    <display-id type="integer">11</display-id>
+    <requester-id type="integer">1000260486</requester-id>
+    <owner-id type="integer">1000260486</owner-id>
+    <group-id type="integer">1000064431</group-id>
+    <release-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <subject>Move library reference log to legacyapps</subject>
+    <created-at type="dateTime">2018-03-12T16:15:38-05:00</created-at>
+    <updated-at type="dateTime">2018-03-15T00:50:18-05:00</updated-at>
+    <cc-email>
+    </cc-email>
+    <planned-start-date type="dateTime" nil="true"/>
+    <planned-end-date type="dateTime" nil="true"/>
+    <import-id type="integer" nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <project-id type="integer" nil="true"/>
+    <approval-type type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <state-flow-id type="integer" nil="true"/>
+    <state-traversal nil="true"/>
+    <priority-name>High</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Medium</impact-name>
+    <requester-name>Chris Hougard</requester-name>
+    <owner-name>Chris Hougard</owner-name>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-release nil="true"/>
+    <risk-type>Low</risk-type>
+    <change-type-name>Standard</change-type-name>
+    <approval-status-name>Not Requested</approval-status-name>
+    <department-name nil="true"/>
+    <change-impact type="Itil::ChangeImpact">
+      <id type="integer">1000018938</id>
+      <change-id type="integer">1000053184</change-id>
+      <user-id type="integer" nil="true"/>
+      <account-id type="integer">14966</account-id>
+      <description>Library will need to be notified of the new URL.</description>
+      <description-html>&lt;div&gt;Library will need to be notified of the new URL. &lt;br&gt;
+&lt;/div&gt;</description-html>
+      <created-at type="dateTime">2018-03-12T16:15:38-05:00</created-at>
+      <updated-at type="dateTime">2018-03-12T16:15:38-05:00</updated-at>
+      <attachments type="array"/>
+    </change-impact>
+    <change-reason type="Itil::ChangeReason">
+      <id type="integer">1000035713</id>
+      <change-id type="integer">1000053184</change-id>
+      <user-id type="integer" nil="true"/>
+      <account-id type="integer">14966</account-id>
+      <description>Needs to be moved to voyager can be shut down</description>
+      <description-html>&lt;div&gt;Needs to be moved to voyager can be shut down&lt;br&gt;
+&lt;/div&gt;</description-html>
+      <created-at type="dateTime">2018-03-12T16:15:38-05:00</created-at>
+      <updated-at type="dateTime">2018-03-12T16:15:38-05:00</updated-at>
+      <attachments type="array"/>
+    </change-reason>
+    <change-body type="Itil::ChangeBody">
+      <id type="integer">1000053624</id>
+      <change-id type="integer">1000053184</change-id>
+      <description> http://resources.msoe.edu/library/reference_log/ needs to be moved to legacyapps.msoe.edu so voyager can be shut down. The application uses a postgresql database that may need to be moved as well.</description>
+      <description-html>&lt;div style="font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, Segoe\ UI, Roboto, Helvetica\ Neue, Arial, sans-serif;"&gt;
+&lt;div&gt; &lt;a href="http://resources.msoe.edu/library/reference_log/" rel="noreferrer"&gt;http://resources.msoe.edu/library/reference_log/&lt;/a&gt; needs to be moved to legacyapps.msoe.edu so voyager can be shut down. The application uses a postgresql database that may need to be moved as well.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-03-12T16:15:38-05:00</created-at>
+      <updated-at type="dateTime">2018-03-12T16:15:38-05:00</updated-at>
+    </change-body>
+    <itil-tasks type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <id_14966>476381</id_14966>
+      <first_name_14966>Chris</first_name_14966>
+      <last_name_14966>Hougard</last_name_14966>
+    </custom_field>
+  </change>
+</itil-changes>

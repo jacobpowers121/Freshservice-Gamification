@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdesk-tickets type="array">
+  <helpdesk-ticket>
+    <id type="integer">1000084334</id>
+    <requester-id type="integer">1000079032</requester-id>
+    <responder-id type="integer" nil="true"/>
+    <status type="integer">5</status>
+    <source type="integer">2</source>
+    <spam type="boolean">false</spam>
+    <deleted type="boolean">false</deleted>
+    <created-at type="dateTime">2015-01-30T09:43:52-06:00</created-at>
+    <updated-at type="dateTime">2015-06-10T10:38:48-05:00</updated-at>
+    <subject>What's wrong with my email?</subject>
+    <display-id type="integer">1</display-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <due-by type="dateTime">2015-02-04T09:43:52-06:00</due-by>
+    <frDueBy type="dateTime">2015-02-02T09:43:52-06:00</frDueBy>
+    <isescalated type="boolean">true</isescalated>
+    <priority type="integer">1</priority>
+    <fr-escalated type="boolean">true</fr-escalated>
+    <to-email nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <cc-email>
+      <cc-emails type="array"/>
+      <fwd-emails type="array"/>
+    </cc-email>
+    <ticket-type>Incident</ticket-type>
+    <urgency type="integer">1</urgency>
+    <impact type="integer">1</impact>
+    <department-id-value type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <status-name>Closed</status-name>
+    <requester-status-name>This ticket has been Closed</requester-status-name>
+    <priority-name>Low</priority-name>
+    <source-name>Portal</source-name>
+    <requester-name>Andrea</requester-name>
+    <responder-name>No Agent</responder-name>
+    <assoc-problem>Unable to reach email server</assoc-problem>
+    <assoc-change>Getting ES3 back up to speed</assoc-change>
+    <assoc-change-cause nil="true"/>
+    <description>Hi Team, I have been unable to send any emails since this morning. What�s going on? Regards, Andrea</description>
+    <description-html>&lt;div&gt;Hi Team,&lt;br/&gt; &lt;br/&gt;I have been unable to send any emails since this morning. What�s going on?&lt;br/&gt;&lt;br/&gt;Regards,&lt;br/&gt; Andrea &lt;/div&gt;</description-html>
+    <attachments type="array"/>
+    <tags type="array"/>
+    <to_emails>
+    </to_emails>
+    <custom_field>
+      <location_14966>Kern Center</location_14966>
+      <incident_type_14966>Audio/Visual Equipment</incident_type_14966>
+    </custom_field>
+  </helpdesk-ticket>
+</helpdesk-tickets>

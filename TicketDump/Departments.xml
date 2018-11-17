@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departments type="array">
+  <department>
+    <id type="integer">1000086645</id>
+    <name>Academics-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:41-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:41-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086736</id>
+    <name>Actuarial Science - Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:00:03-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:00:03-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086770</id>
+    <name>AE-AECM Majors</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:38:30-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:38:30-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086735</id>
+    <name>AE-Architectural Eng Majors</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:59:39-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:59:39-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086693</id>
+    <name>AE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:49:30-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:49:30-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086624</id>
+    <name>AE&amp;BC-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:08-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:08-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086635</id>
+    <name>AE&amp;BC-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:22-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:22-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086695</id>
+    <name>AECM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:49:44-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:49:44-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086691</id>
+    <name>All ME Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:49:02-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:49:02-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086641</id>
+    <name>Alumni</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:38-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:38-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086774</id>
+    <name>Applied Research &amp; Grants</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:49:20-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:49:20-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086647</id>
+    <name>ATC-FPI-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:44-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:44-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086637</id>
+    <name>Athletics-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:27-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:27-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086771</id>
+    <name>BATC-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:39:34-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:39:34-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086671</id>
+    <name>BE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:41:42-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:41:42-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086696</id>
+    <name>BEC-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:50:05-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:50:05-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086669</id>
+    <name>BIOE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:41:24-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:41:24-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086698</id>
+    <name>BM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:50:22-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:50:22-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086661</id>
+    <name>BMM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:11-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:11-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086623</id>
+    <name>Bookstore-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:07-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:07-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086723</id>
+    <name>BSCVE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:53:38-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:53:38-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086708</id>
+    <name>BSE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:05-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:05-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086753</id>
+    <name>BSM-Students- Management Majors</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:28:45-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:28:45-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086751</id>
+    <name>BSTC-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:28:04-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:28:04-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086746</id>
+    <name>BUS-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:20:05-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:20:05-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086626</id>
+    <name>Business-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:10-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:10-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086644</id>
+    <name>Business-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:40-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:40-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086670</id>
+    <name>Catalyst-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:41:26-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:41:26-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086664</id>
+    <name>CCSD-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:40-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:40-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086707</id>
+    <name>CE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:04-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:04-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086650</id>
+    <name>CM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:58-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:58-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086679</id>
+    <name>Counseling-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:43:54-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:43:54-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038915</id>
+    <name>Customer Support</name>
+    <description>Support Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086714</id>
+    <name>CVE_Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:52:06-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:52:06-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038913</id>
+    <name>Development</name>
+    <description>Development Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086672</id>
+    <name>Development-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:41:44-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:41:44-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086711</id>
+    <name>EE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:15-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:15-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086625</id>
+    <name>EECS-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:09-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:09-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086628</id>
+    <name>EECS-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:12-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:12-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086726</id>
+    <name>EET-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:54:28-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:54:28-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086709</id>
+    <name>Electrical Engineering Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:07-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:07-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086631</id>
+    <name>Enrollment-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:16-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:16-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086632</id>
+    <name>Facilities-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:18-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:18-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038916</id>
+    <name>Finance</name>
+    <description>Finance Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086657</id>
+    <name>FinancialAid-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:43-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:43-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086743</id>
+    <name>Fluid Power Institute</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:12:50-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:12:50-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086643</id>
+    <name>GeneralStudies-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:39-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:39-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086655</id>
+    <name>GeneralStudies-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:31-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:31-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086680</id>
+    <name>Graduate &amp; Professional Education</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:44:22-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:44:22-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086652</id>
+    <name>Health-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:05-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:05-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086651</id>
+    <name>Housing-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:04-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:04-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038917</id>
+    <name>HR</name>
+    <description>HR Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086662</id>
+    <name>HR-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:25-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:25-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086734</id>
+    <name>IB-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:59:17-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:59:17-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086673</id>
+    <name>IE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:42:26-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:42:26-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038919</id>
+    <name>IT</name>
+    <description>IT Service Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086658</id>
+    <name>IT-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:47-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:47-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086639</id>
+    <name>Library-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:35-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:35-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086676</id>
+    <name>LRC-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:43:04-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:43:04-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086656</id>
+    <name>Mailroom-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:37-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:37-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086663</id>
+    <name>Marketing-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:39-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:39-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086674</id>
+    <name>Math-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:42:45-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:42:45-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086654</id>
+    <name>Mathematics-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:27-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:27-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086636</id>
+    <name>ME-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:23-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:23-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086649</id>
+    <name>ME-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:57-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:57-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086630</id>
+    <name>ME-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:14-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:14-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086775</id>
+    <name>MEBM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:50:53-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:50:53-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086681</id>
+    <name>MET-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:45:29-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:45:29-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086633</id>
+    <name>MIS-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:19-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:19-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086712</id>
+    <name>MSE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:16-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:16-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086689</id>
+    <name>MSEM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:48:25-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:48:25-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086725</id>
+    <name>MSEV-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:54:27-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:54:27-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086737</id>
+    <name>MSMI-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:01:25-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:01:25-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086773</id>
+    <name>MSNM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:40:22-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:40:22-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086749</id>
+    <name>MSNP-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:22:11-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:22:11-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086762</id>
+    <name>MSOE Alumni</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:31:10-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:31:10-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086738</id>
+    <name>MSP-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:02:08-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:02:08-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086739</id>
+    <name>MSST-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:04:07-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:04:07-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086742</id>
+    <name>MSXM-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:11:47-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:11:47-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086748</id>
+    <name>NDC-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:22:04-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:22:04-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086740</id>
+    <name>NDNP-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:08:36-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:08:36-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086754</id>
+    <name>NDQUA-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:30:28-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:30:28-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086745</id>
+    <name>NDTC-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:18:08-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:18:08-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086715</id>
+    <name>NDUNK-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:52:17-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:52:17-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086692</id>
+    <name>NDWEB-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:49:22-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:49:22-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086776</id>
+    <name>Non-Matriculated Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:51:00-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:51:00-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086710</id>
+    <name>NU-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:13-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:13-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086724</id>
+    <name>NUACC Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:54:02-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:54:02-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086638</id>
+    <name>Nursing-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:29-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:29-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086653</id>
+    <name>Nursing-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:17-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:17-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038918</id>
+    <name>Operations</name>
+    <description>Operations Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086772</id>
+    <name>Operations Research Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:40:06-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:40:06-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086678</id>
+    <name>Physics Chemistry-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:43:44-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:43:44-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086627</id>
+    <name>Physics-Chemistry-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:11-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:11-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086622</id>
+    <name>Physics-Chemistry-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:05-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:05-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086665</id>
+    <name>Placement-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:46-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:46-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086690</id>
+    <name>PLTW-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:48:57-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:48:57-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086750</id>
+    <name>PLW-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:22:32-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:22:32-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086675</id>
+    <name>PresidentsOffice-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:42:51-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:42:51-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086752</id>
+    <name>Project Lead the Way – Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:28:19-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:28:19-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086741</id>
+    <name>Project Management</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:10:50-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:10:50-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086747</id>
+    <name>PSEO-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T11:20:26-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T11:20:26-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086646</id>
+    <name>PublicSafety-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:42-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:42-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086666</id>
+    <name>Raider Center for Academic Success</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:56-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:56-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086660</id>
+    <name>Registrars-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:40:00-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:40:00-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086694</id>
+    <name>Retired Employees from MSOE</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:49:31-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:49:31-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086667</id>
+    <name>RPC-CBM</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:41:00-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:41:00-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086634</id>
+    <name>RPC-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:21-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:21-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000038914</id>
+    <name>Sales</name>
+    <description>Sales Team</description>
+    <created-at type="dateTime">2015-01-30T09:43:56-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:56-06:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086713</id>
+    <name>SE-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:51:49-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:51:49-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086648</id>
+    <name>StudentFinancialServices-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:53-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:53-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086668</id>
+    <name>StudentLife-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:41:11-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:41:11-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086677</id>
+    <name>Treasurer-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:43:35-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:43:35-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086629</id>
+    <name>TRIO-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:13-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:13-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086642</id>
+    <name>Unknown</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:39-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:39-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086621</id>
+    <name>Unknown-Faculty</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:05-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:05-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086640</id>
+    <name>Unknown-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:38:36-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:38:36-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086706</id>
+    <name>Unknown-Students</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:50:27-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:50:27-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086697</id>
+    <name>WFOE-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:50:11-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:50:11-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+  <department>
+    <id type="integer">1000086659</id>
+    <name>WMSE-Staff</name>
+    <description nil="true"/>
+    <created-at type="dateTime">2015-04-17T10:39:50-05:00</created-at>
+    <updated-at type="dateTime">2015-04-17T10:39:50-05:00</updated-at>
+    <custom_field>
+    </custom_field>
+  </department>
+</departments>

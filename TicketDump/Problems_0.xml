@@ -1,0 +1,3448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itil-problems type="array">
+  <problem>
+    <id type="integer">1000005442</id>
+    <subject>Unable to reach email server</subject>
+    <due-by type="dateTime">2015-02-13T09:43:57-06:00</due-by>
+    <display-id type="integer">1</display-id>
+    <requester-id type="integer">1000079033</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer">1000005516</change-id>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+    <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Rachel</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change>Getting ES3 back up to speed</assoc-change>
+    <department-name nil="true"/>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000005009</id>
+      <problem-id type="integer">1000005442</problem-id>
+      <user-id type="integer">1000079033</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>All employees in the third floor have been affected. They will not be able to send or receive emails until the server is back up. </description>
+      <description-html>&lt;div&gt; All employees in the third floor have been affected. They will not be able to send or receive emails until the server is back up.  &lt;/div&gt;</description-html>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000005021</id>
+      <problem-id type="integer">1000005442</problem-id>
+      <user-id type="integer">1000079033</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Email server 3 has gone down due to a CPU spike</description>
+      <description-html>&lt;div&gt;Email server 3 has gone down due to a CPU spike&lt;/div&gt;</description-html>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000005442</id>
+      <problem-id type="integer">1000005442</problem-id>
+      <description nil="true"/>
+      <description-html>&lt;div&gt;Hi guys, &lt;br/&gt;&lt;br/&gt;We have been facing issues when we try to reach Email Server 3. Looks like there is something wrong here.&lt;br/&gt;&lt;br/&gt;Regards&lt;br/&gt; Rachel&lt;br/&gt; &lt;/div&gt; </description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+      <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array">
+      <itil-task type="Itil::ItTask">
+        <id type="integer">1000006963</id>
+        <user-id type="integer">1000079033</user-id>
+        <owner-id type="integer" nil="true"/>
+        <account-id type="integer">14966</account-id>
+        <display-id type="integer">1</display-id>
+        <status type="integer">1</status>
+        <taskable-id type="integer">1000005442</taskable-id>
+        <taskable-type>Itil::Problem</taskable-type>
+        <due-date type="dateTime">2015-02-02T08:00:00-06:00</due-date>
+        <notify-before type="integer">0</notify-before>
+        <deleted type="boolean">false</deleted>
+        <title>Please troubleshoot Email server (ES3)</title>
+        <description>Hi,
+
+Please troubleshoot Email server (ES3)
+
+Regards
+Rachel
+</description>
+        <created-at type="dateTime">2015-01-30T09:43:57-06:00</created-at>
+        <updated-at type="dateTime">2015-01-30T09:43:57-06:00</updated-at>
+        <closed-at type="dateTime" nil="true"/>
+        <group-id type="integer" nil="true"/>
+        <parent-id type="integer" nil="true"/>
+        <root-id type="integer" nil="true"/>
+        <start-date type="dateTime" nil="true"/>
+        <dependencies-count type="integer">0</dependencies-count>
+        <taskable-display-id type="integer">1</taskable-display-id>
+      </itil-task>
+    </itil-tasks>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018264</id>
+    <subject>test for a problem</subject>
+    <due-by type="dateTime">2015-08-14T14:13:00-05:00</due-by>
+    <display-id type="integer">2</display-id>
+    <requester-id type="integer">1000079031</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-12T14:13:42-05:00</created-at>
+    <updated-at type="dateTime">2015-08-12T14:17:21-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Shawna Ferguson</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000016015</id>
+      <problem-id type="integer">1000018264</problem-id>
+      <user-id type="integer">1000079031</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> none</description>
+      <description-html>&lt;div&gt; none&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-08-12T14:17:00-05:00</created-at>
+      <updated-at type="dateTime">2015-08-12T14:17:00-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-symptom type="Itil::ProblemSymptom">
+      <id type="integer">1000000624</id>
+      <problem-id type="integer">1000018264</problem-id>
+      <user-id type="integer">1000079031</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> running and screaming</description>
+      <description-html>&lt;div&gt; running and screaming&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-08-12T14:17:10-05:00</created-at>
+      <updated-at type="dateTime">2015-08-12T14:17:10-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-symptom>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000016129</id>
+      <problem-id type="integer">1000018264</problem-id>
+      <user-id type="integer">1000079031</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> we found it. and it's fixed</description>
+      <description-html>&lt;div&gt; we found it. and it's fixed&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-08-12T14:16:51-05:00</created-at>
+      <updated-at type="dateTime">2015-08-12T14:16:51-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018264</id>
+      <problem-id type="integer">1000018264</problem-id>
+      <description>this is a test for a problem   </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;br&gt;&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;this is a test for a problem&lt;br&gt;&lt;div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-12T14:13:42-05:00</created-at>
+      <updated-at type="dateTime">2015-08-12T14:13:42-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018344</id>
+    <subject>old ticket 16089 - Library media in study rooms</subject>
+    <due-by type="dateTime">2015-08-22T19:48:00-05:00</due-by>
+    <display-id type="integer">3</display-id>
+    <requester-id type="integer">1000256887</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T19:49:51-05:00</created-at>
+    <updated-at type="dateTime">2015-10-06T17:53:37-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Patricia Hurlbut</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018344</id>
+      <problem-id type="integer">1000018344</problem-id>
+      <description> Hello
+ Support,I was just forwarded the following e-mail:_____________________________________From: Bitz, Scott K.
+Sent: Wednesday, September 17, 2014 11:02 AM
+To: Library
+Subject: AV Ticket
+ 
+On 9/15 Sean Kelly, one of the Library Circulation desk workers put in a
+ ticket about the wireless TV connectivity not working in L207 and I 
+believe they were stolen. After checking in the room, I found that there
+ was nothing connected to HDMI 1 where the devices to connect wirelessly
+ should be connected on the TVs. Also, there are two loose Ethernet 
+cables hanging from the switch in the back panel and nothing else in 
+there besides the VGA cables and HDMI cables. Also the back panel was 
+open when I got in there and none of the screws on it. SO that is why I 
+believe they were stolen.
+ 
+Scott Bitz
+AV Tech
+____________________________________We'll place an "out of order" sign in the room.  In the meantime, can 
+Tony Cottrill or Peter Pfister contact me about this problem?  I'm 
+wondering what we need to do to have the problem fixed, and how much it 
+will cost, and I'm wondering what we need to do to with respect to 
+security in order to try to prevent this problem in the future.  Thanks,Gary Shimek
+Director of the Library
+x7181 Time Available: Anytime</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; &lt;a id="AdvanceSearchIncident_V2_AdvSearchIncidentGrid_hypDescription_0" href="https://app20.schooldude.com/toolbox/mydtit/mydtit_s/mydtit_woupdate.asp?IncidentID=16089&amp;amp;sql=+and+%28%28StatusID+IN+%281%2c+2%29%29+%29++AND+%28%28ProblemTypeID+IN+%2810001%2c+10002%29%29+%29++Order+By+IncidentID+Asc"&gt;Hello
+ Support,I was just forwarded the following e-mail:_____________________________________From: Bitz, Scott K.
+Sent: Wednesday, September 17, 2014 11:02 AM
+To: Library
+Subject: AV Ticket
+ 
+On 9/15 Sean Kelly, one of the Library Circulation desk workers put in a
+ ticket about the wireless TV connectivity not working in L207 and I 
+believe they were stolen. After checking in the room, I found that there
+ was nothing connected to HDMI 1 where the devices to connect wirelessly
+ should be connected on the TVs. Also, there are two loose Ethernet 
+cables hanging from the switch in the back panel and nothing else in 
+there besides the VGA cables and HDMI cables. Also the back panel was 
+open when I got in there and none of the screws on it. SO that is why I 
+believe they were stolen.
+ 
+Scott Bitz
+AV Tech
+____________________________________We'll place an "out of order" sign in the room.  In the meantime, can 
+Tony Cottrill or Peter Pfister contact me about this problem?  I'm 
+wondering what we need to do to have the problem fixed, and how much it 
+will cost, and I'm wondering what we need to do to with respect to 
+security in order to try to prevent this problem in the future.  Thanks,Gary Shimek
+Director of the Library
+x7181 Time Available: Anytime&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T19:49:51-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T19:49:51-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018345</id>
+    <subject>old ticket 17532 - need to repair a DMX jack</subject>
+    <due-by type="dateTime">2015-08-22T19:51:00-05:00</due-by>
+    <display-id type="integer">4</display-id>
+    <requester-id type="integer">1000256840</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T19:52:22-05:00</created-at>
+    <updated-at type="dateTime">2015-08-20T19:52:22-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Edward Griggs</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018345</id>
+      <problem-id type="integer">1000018345</problem-id>
+      <description> Stage left DMX jack has a bad connection. Please re-solder per e-mail conversation with Rob Rack.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Stage left DMX jack has a bad connection. Please re-solder per e-mail conversation with Rob Rack.&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T19:52:22-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T19:52:22-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018346</id>
+    <subject>old ticket 20286 whiteboard and projector for Math Resource Room</subject>
+    <due-by type="dateTime">2015-08-22T19:57:00-05:00</due-by>
+    <display-id type="integer">5</display-id>
+    <requester-id type="integer">1000256840</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T19:59:24-05:00</created-at>
+    <updated-at type="dateTime">2015-09-05T14:21:39-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Edward Griggs</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018346</id>
+      <problem-id type="integer">1000018346</problem-id>
+      <description>Per conversation with Rob: If a "hand-me-down" marker board becomes 
+available this summer, please reserve for math Department Resource Room,
+ L-316.   
+   
+ Whiteboard and projector have been taken to this room. Maintenance request for mounting the whiteboard still pending. psh</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt;Per conversation with Rob: If a "hand-me-down" marker board becomes 
+available this summer, please reserve for math Department Resource Room,
+ L-316. &lt;br&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Whiteboard and projector have been taken to this room. Maintenance request for mounting the whiteboard still pending. psh&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T19:59:24-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T19:59:24-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018347</id>
+    <subject>old ticket 20573 - haze on monitor in L213</subject>
+    <due-by type="dateTime">2015-08-22T19:59:00-05:00</due-by>
+    <display-id type="integer">6</display-id>
+    <requester-id type="integer">1000468909</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:01:39-05:00</created-at>
+    <updated-at type="dateTime">2015-09-25T13:04:00-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Pamela Gorzalski</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018347</id>
+      <problem-id type="integer">1000018347</problem-id>
+      <description> Study room L-213 monitor on right side is showing blue haze over data. The left-side monitor is already not working.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Study room L-213 monitor on right side is showing blue haze over data. The left-side monitor is already not working.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:01:39-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:01:39-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018348</id>
+    <subject>old ticket 20684 - MondoPad in CC126</subject>
+    <due-by type="dateTime">2015-08-22T20:02:00-05:00</due-by>
+    <display-id type="integer">7</display-id>
+    <requester-id type="integer">1000256887</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:05:55-05:00</created-at>
+    <updated-at type="dateTime">2015-08-20T20:05:55-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Patricia Hurlbut</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018348</id>
+      <problem-id type="integer">1000018348</problem-id>
+      <description> missing cord to connect to project on mondopad.  Did try another cord, but did not project.  
+ Periodically, someone calls in to this number - it starts ringing during class.   
+ Auto updates start around 11am - need to change this time slot.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; missing cord to connect to project on mondopad.  Did try another cord, but did not project. &lt;/div&gt;
+&lt;div&gt;Periodically, someone calls in to this number - it starts ringing during class. &lt;br&gt;
+&lt;/div&gt;
+&lt;div&gt;Auto updates start around 11am - need to change this time slot.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:05:55-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:05:55-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018349</id>
+    <subject>old ticket 21110 Whiteboard repairs</subject>
+    <due-by type="dateTime">2015-08-22T20:06:00-05:00</due-by>
+    <display-id type="integer">8</display-id>
+    <requester-id type="integer">1000256663</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:08:48-05:00</created-at>
+    <updated-at type="dateTime">2015-09-05T14:27:08-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Kimberly Popp-Benson</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018349</id>
+      <problem-id type="integer">1000018349</problem-id>
+      <description> Whiteboards need seal strip in center in rooms R201, R200, and R102.   
+ Strips were ordered and room 102 and 200 are completed.   
+ Room R201 requires some additional gluing before adding the strip. (as of 8/20/15) psh</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Whiteboards need seal strip in center in rooms R201, R200, and R102. &lt;br&gt;
+&lt;/div&gt;
+&lt;div&gt;Strips were ordered and room 102 and 200 are completed. &lt;br&gt;
+&lt;/div&gt;
+&lt;div&gt;Room R201 requires some additional gluing before adding the strip. (as of 8/20/15) psh&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:08:48-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:08:48-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000005218</id>
+        <body> glued board to backing, and put cover strip in place over seams.</body>
+        <body-html>&lt;div&gt; glued board to backing, and put cover strip in place over seams.&lt;br&gt;
+&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000018349</notable-id>
+        <user-id type="integer">1000256887</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2015-09-05T14:22:48-05:00</created-at>
+        <updated-at type="dateTime">2015-09-05T14:22:48-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018350</id>
+    <subject>Second projector in JCSDL (CC03A) </subject>
+    <due-by type="dateTime">2015-08-22T20:09:00-05:00</due-by>
+    <display-id type="integer">9</display-id>
+    <requester-id type="integer">1000257293</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:11:36-05:00</created-at>
+    <updated-at type="dateTime">2015-09-25T13:05:47-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Dr. Stephen Williams</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018350</id>
+      <problem-id type="integer">1000018350</problem-id>
+      <description> Please install a second computer projector and screen on the east end of
+ the south wall in CC-03A. This will be paid for from a Johnson Controls
+ restricted account. **Please contact me for more information.** Thanks.
+ Steve W, x7420</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Please install a second computer projector and screen on the east end of
+ the south wall in CC-03A. This will be paid for from a Johnson Controls
+ restricted account. **Please contact me for more information.** Thanks.
+ Steve W, x7420&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:11:36-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:11:36-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000004816</id>
+        <body> Additional information from old ticket 21566 8/14/15: Using
+ restricted account funds, EECS requests to purchase a 65" 1080p LED 
+backlit display for use in the Johnson Controls Software Development 
+Laboratory.  We found a model recommended by CNET that has a good price 
+less than $1000 including shipping from Dell or Newegg. 
+Vizio Model E65-C3
+http://www.vizio.com/e65c3.html 
+I could not find a similar spec model at CDW. With your permission, we 
+could order it using the EECS credit card. Please let me know. Thanks.
+Steve W
+277-7420</body>
+        <body-html>&lt;div&gt; Additional information from old ticket 21566 8/14/15: &lt;a id="AdvanceSearchIncident_V2_AdvSearchIncidentGrid_hypDescription_5" href="https://app20.schooldude.com/toolbox/mydtit/mydtit_s/mydtit_woupdate.asp?IncidentID=21566&amp;amp;sql=+and+%28%28StatusID+IN+%281%2c+2%29%29+%29++Order+By+IncidentDate+Asc"&gt;Using
+ restricted account funds, EECS requests to purchase a 65" 1080p LED 
+backlit display for use in the Johnson Controls Software Development 
+Laboratory.  We found a model recommended by CNET that has a good price 
+less than $1000 including shipping from Dell or Newegg. 
+Vizio Model E65-C3
+http://www.vizio.com/e65c3.html 
+I could not find a similar spec model at CDW. With your permission, we 
+could order it using the EECS credit card. Please let me know. Thanks.
+Steve W
+277-7420 &lt;br&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;a id="AdvanceSearchIncident_V2_AdvSearchIncidentGrid_hypDescription_5" href="https://app20.schooldude.com/toolbox/mydtit/mydtit_s/mydtit_woupdate.asp?IncidentID=21566&amp;amp;sql=+and+%28%28StatusID+IN+%281%2c+2%29%29+%29++Order+By+IncidentDate+Asc"&gt;&lt;br&gt;&lt;/a&gt;&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000018350</notable-id>
+        <user-id type="integer">1000256887</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2015-08-20T20:25:05-05:00</created-at>
+        <updated-at type="dateTime">2015-08-20T20:25:05-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018351</id>
+    <subject>old ticket 21383 - GEA needs new VGA cable</subject>
+    <due-by type="dateTime">2015-08-22T20:12:00-05:00</due-by>
+    <display-id type="integer">10</display-id>
+    <requester-id type="integer">1000256686</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:14:02-05:00</created-at>
+    <updated-at type="dateTime">2015-11-11T20:52:22-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Leah Braverman</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018351</id>
+      <problem-id type="integer">1000018351</problem-id>
+      <description> In the GEA building, room 101 the cable which is used to hook up laptops
+ to the projector is not working (I believe there is a bent pin in the 
+cable which is preventing it from connecting to laptops). Time 
+Available: the room should be free until 1pm everyday 
+   
+ Cable has been ordered. psh</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; In the GEA building, room 101 the cable which is used to hook up laptops
+ to the projector is not working (I believe there is a bent pin in the 
+cable which is preventing it from connecting to laptops). Time 
+Available: the room should be free until 1pm everyday&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Cable has been ordered. psh&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:14:02-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:14:02-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018352</id>
+    <subject>old ticket 20199</subject>
+    <due-by type="dateTime">2015-08-22T20:15:00-05:00</due-by>
+    <display-id type="integer">11</display-id>
+    <requester-id type="integer">1000256850</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:16:51-05:00</created-at>
+    <updated-at type="dateTime">2015-09-05T14:24:06-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Marty Handley</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018352</id>
+      <problem-id type="integer">1000018352</problem-id>
+      <description> Martin Handley wants to verify that a projector system has been ordered 
+for S-343, the lab under construction. He wants to make sure that AV can
+ have it installed before 9/7/2015. 
+   
+ Speakers have been installed. We've discussed projector placement, and the need for a shelf to place the Crestron, the document camera, and a faculty computer. Marty is going to build a small add-on shelf and have an instructor table set near the hole in the wall where the equipment will be wired.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Martin Handley wants to verify that a projector system has been ordered 
+for S-343, the lab under construction. He wants to make sure that AV can
+ have it installed before 9/7/2015.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Speakers have been installed. We've discussed projector placement, and the need for a shelf to place the Crestron, the document camera, and a faculty computer. Marty is going to build a small add-on shelf and have an instructor table set near the hole in the wall where the equipment will be wired. &lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:16:51-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:16:51-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000005219</id>
+        <body> projectors and equipment were installed on 9/3/15. Requested Russ Meier and Steve Williams to test to confirm. Steve Williams confirmed that all was working properly.</body>
+        <body-html>&lt;div&gt; projectors and equipment were installed on 9/3/15. Requested Russ Meier and Steve Williams to test to confirm. Steve Williams confirmed that all was working properly.&lt;br&gt;
+&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000018352</notable-id>
+        <user-id type="integer">1000256887</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2015-09-05T14:24:01-05:00</created-at>
+        <updated-at type="dateTime">2015-09-05T14:24:01-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018353</id>
+    <subject>Additional projector for RHA training room (conference room in first floor of MLH)</subject>
+    <due-by type="dateTime">2015-08-22T20:26:00-05:00</due-by>
+    <display-id type="integer">12</display-id>
+    <requester-id type="integer">1000256887</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T20:32:18-05:00</created-at>
+    <updated-at type="dateTime">2015-11-11T20:48:34-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Patricia Hurlbut</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000016389</id>
+      <problem-id type="integer">1000018353</problem-id>
+      <user-id type="integer">1000256887</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> We have added wireless connectivity and a BENQ projector to this room. Project is completed.</description>
+      <description-html>&lt;div&gt; We have added wireless connectivity and a BENQ projector to this room. Project is completed.&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-11-11T16:56:15-06:00</created-at>
+      <updated-at type="dateTime">2015-11-11T16:56:15-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018353</id>
+      <problem-id type="integer">1000018353</problem-id>
+      <description> Presently RHA is borrowing the RSOB projector on a cart for RA training. They would like to invest in a new projector to be mounted in this room. per Cassie (RHA director)  
+   
+ I've been told that there may be wiring issues and it will need further investigation. psh</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Presently RHA is borrowing the RSOB projector on a cart for RA training. They would like to invest in a new projector to be mounted in this room. per Cassie (RHA director)&lt;br&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;I've been told that there may be wiring issues and it will need further investigation. psh&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T20:32:18-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T20:32:18-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000005220</id>
+        <body> We took the spare projector from RSOB over to the room. However, they also then put in a request to have wireless or a wired connection to the room. This request was for pre-quarter training for RAs. I will return the spare projector to RSOB and follow up with their request to have a new projector purchased from their department.</body>
+        <body-html>&lt;div&gt; We took the spare projector from RSOB over to the room. However, they also then put in a request to have wireless or a wired connection to the room. This request was for pre-quarter training for RAs. I will return the spare projector to RSOB and follow up with their request to have a new projector purchased from their department.&lt;br&gt;
+&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000018353</notable-id>
+        <user-id type="integer">1000256887</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2015-09-05T14:26:34-05:00</created-at>
+        <updated-at type="dateTime">2015-09-05T14:26:34-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018354</id>
+    <subject>move projector and screen in CC050</subject>
+    <due-by type="dateTime">2015-08-22T21:00:00-05:00</due-by>
+    <display-id type="integer">13</display-id>
+    <requester-id type="integer">1000256887</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-08-20T21:02:10-05:00</created-at>
+    <updated-at type="dateTime">2015-08-20T21:02:10-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Patricia Hurlbut</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018354</id>
+      <problem-id type="integer">1000018354</problem-id>
+      <description>Instructors would like to move the projector and screen to the left of the whiteboard per Steve Krueger and Tara (CAECM office). </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;Instructors would like to move the projector and screen to the left of the whiteboard per Steve Krueger and Tara (CAECM office). &lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-20T21:02:11-05:00</created-at>
+      <updated-at type="dateTime">2015-08-20T21:02:11-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018373</id>
+    <subject>Hub login redirects to password reset</subject>
+    <due-by type="dateTime">2015-08-24T12:00:00-05:00</due-by>
+    <display-id type="integer">14</display-id>
+    <requester-id type="integer">1000260201</requester-id>
+    <owner-id type="integer">1000257223</owner-id>
+    <group-id type="integer">1000064431</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">true</known-error>
+    <created-at type="dateTime">2015-08-24T09:07:52-05:00</created-at>
+    <updated-at type="dateTime">2015-08-24T10:29:24-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>High</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>High</impact-name>
+    <requester-name>Sam West</requester-name>
+    <owner-name>Michael Timm</owner-name>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018373</id>
+      <problem-id type="integer">1000018373</problem-id>
+      <description>Anyone logging into the Hub will be redirected to password reset. </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;&lt;div&gt;Anyone logging into the Hub will be redirected to password reset. &lt;/div&gt;&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-08-24T09:07:52-05:00</created-at>
+      <updated-at type="dateTime">2015-08-24T09:07:52-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array">
+      <problem-article type="Itil::ProblemArticle">
+        <id type="integer">1000000757</id>
+        <problem-id type="integer">1000018373</problem-id>
+        <account-id type="integer">14966</account-id>
+        <article-id type="integer">1000015489</article-id>
+        <created-at type="dateTime">2015-08-24T10:29:08-05:00</created-at>
+        <updated-at type="dateTime">2015-08-24T10:29:08-05:00</updated-at>
+      </problem-article>
+    </problem-articles>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018468</id>
+    <subject>Early Account Disabling before Sept. 11th deadline</subject>
+    <due-by type="dateTime">2015-09-10T12:00:00-05:00</due-by>
+    <display-id type="integer">15</display-id>
+    <requester-id type="integer">1000260201</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064432</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-09-03T13:42:00-05:00</created-at>
+    <updated-at type="dateTime">2015-09-03T13:42:00-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Medium</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Medium</impact-name>
+    <requester-name>Sam West</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Database Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018468</id>
+      <problem-id type="integer">1000018468</problem-id>
+      <description>To the best of my knowledge, the system is singling out random accounts that so far have not taken any summer classes and have not yet registered for fall classes.  The system is disabling their accounts even though they have a deadline of September 11th to still use their account and back up their files. A lot of these students are unable to transfer important emails and documents. </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;
+&lt;div&gt;To the best of my knowledge, the system is singling out random accounts that so far have not taken any summer classes and have not yet registered for fall classes.  The system is disabling their accounts even though they have a deadline of September 11th to still use their account and back up their files. A lot of these students are unable to transfer important emails and documents. &lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-09-03T13:42:00-05:00</created-at>
+      <updated-at type="dateTime">2015-09-03T13:42:00-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018479</id>
+    <subject>Kern Center Lobby DVD Player Programming</subject>
+    <due-by type="dateTime">2015-09-07T11:15:00-05:00</due-by>
+    <display-id type="integer">16</display-id>
+    <requester-id type="integer">1000256887</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-09-05T11:16:03-05:00</created-at>
+    <updated-at type="dateTime">2015-09-05T11:16:03-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Patricia Hurlbut</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018479</id>
+      <problem-id type="integer">1000018479</problem-id>
+      <description>Do you have anyone who can program the Crestron controller for the DVD player in the Kern Center lobby display case? (Rob Rack used to handle this). 
+   
+ We have a fresh DVD to replace the old one current i the player.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;br&gt;&lt;div&gt;Do you have anyone who can program the Crestron controller for the DVD player in the Kern Center lobby display case? (Rob Rack used to handle this).&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;We have a fresh DVD to replace the old one current i the player.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-09-05T11:16:03-05:00</created-at>
+      <updated-at type="dateTime">2015-09-05T11:16:03-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018591</id>
+    <subject>Direct deposit stub on my.msoe.edu</subject>
+    <due-by type="dateTime">2015-09-18T13:06:00-05:00</due-by>
+    <display-id type="integer">17</display-id>
+    <requester-id type="integer">1000257306</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064432</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">true</known-error>
+    <created-at type="dateTime">2015-09-16T13:06:35-05:00</created-at>
+    <updated-at type="dateTime">2015-10-22T11:08:11-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Dr. Charlene Yauch</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Database Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000016184</id>
+      <problem-id type="integer">1000018591</problem-id>
+      <user-id type="integer">1000257237</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>viewing PDF's on myMSOE</description>
+      <description-html>&lt;div&gt;viewing PDF's on myMSOE&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-10-22T11:07:41-05:00</created-at>
+      <updated-at type="dateTime">2015-10-22T11:07:41-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-symptom type="Itil::ProblemSymptom">
+      <id type="integer">1000000765</id>
+      <problem-id type="integer">1000018591</problem-id>
+      <user-id type="integer">1000257237</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>sometimes PDF's on myMSOE would come up other times not</description>
+      <description-html>&lt;div&gt;sometimes PDF's on myMSOE would come up other times not&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-10-22T11:08:03-05:00</created-at>
+      <updated-at type="dateTime">2015-10-22T11:08:03-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-symptom>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000016341</id>
+      <problem-id type="integer">1000018591</problem-id>
+      <user-id type="integer">1000257237</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>needed a new EX.Data.dll  that was supplied to us by Jenzabar</description>
+      <description-html>&lt;div&gt;
+&lt;span style="color: rgb(0, 0, 0);"&gt;needed a new &lt;/span&gt;&lt;span style="font-family: Calibri, sans-serif; font-size: 11px; line-height: 1.3;"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;EX.Data.dll  that was supplied to us by Jenzabar&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-10-22T11:07:24-05:00</created-at>
+      <updated-at type="dateTime">2015-10-22T11:07:24-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018591</id>
+      <problem-id type="integer">1000018591</problem-id>
+      <description>Hello, 
+ 
+ 
+   
+ I am having difficulty getting my pay stub on my.msoe.edu.  
+ 
+ 
+ 
+   
+ I go to the Employees tab, I select Direct Deposit Stub and select the date.  I wait, and it appears that the PDF gets created.  I click on the PDF link and then instead of opening the file, it opens a new window within my.msoe.edu.  I
+ am unable to get the PDF to open. 
+ 
+ 
+   
+ Thanks for your help! 
+ 
+ 
+   
+ =====================================  
+ Charlene A. Yauch, Ph.D., P.E.  
+ Professor and IE Program Director  
+ Milwaukee School of Engineering  
+ S-112H  
+ (414) 277-7258  
+ yauch@msoe.edu  
+ =====================================  
+ 
+  </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;br&gt;&lt;div class="WordSection1"&gt;
+&lt;div&gt;Hello,&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;I am having difficulty getting my pay stub on my.msoe.edu. &lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;I go to the Employees tab, I select Direct Deposit Stub and select the date.  I wait, and it appears that the PDF gets created.  I click on the PDF link and then instead of opening the file, it opens a new window within my.msoe.edu.  I
+ am unable to get the PDF to open.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;Thanks for your help!&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;=====================================&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;Charlene A. Yauch, Ph.D., P.E.&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;Professor and IE Program Director&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;Milwaukee School of Engineering&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;S-112H&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;(414) 277-7258&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;&lt;a href="mailto:yauch@msoe.edu"&gt;yauch@msoe.edu&lt;/a&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Berlin Sans FB","sans-serif"'&gt;=====================================&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-09-16T13:06:35-05:00</created-at>
+      <updated-at type="dateTime">2015-09-16T13:06:35-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018750</id>
+    <subject>My.msoe Down</subject>
+    <due-by type="dateTime">2015-10-08T09:46:00-05:00</due-by>
+    <display-id type="integer">18</display-id>
+    <requester-id type="integer">1000258962</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064432</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-10-06T09:47:59-05:00</created-at>
+    <updated-at type="dateTime">2015-10-06T09:54:21-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Jordan Longato</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Database Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000016302</id>
+      <problem-id type="integer">1000018750</problem-id>
+      <user-id type="integer">1000256852</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Update job caused JICS to lock connections to the database. Result is YSOD for any tab that directly pulls data.</description>
+      <description-html>&lt;div&gt;Update job caused JICS to lock connections to the database. Result is YSOD for any tab that directly pulls data.&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2015-10-06T09:53:47-05:00</created-at>
+      <updated-at type="dateTime">2015-10-06T09:53:47-05:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018750</id>
+      <problem-id type="integer">1000018750</problem-id>
+      <description>My.msoe.edu is throwing errors for both student and faculty tabs</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;
+&lt;div&gt;My.msoe.edu is throwing errors for both student and faculty tabs&lt;/div&gt;
+&lt;div&gt;&lt;img src="https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTAwMTQyMTE1NSwiZG9tYWluIjoibXNvZS5mcmVzaHNlcnZpY2UuY29tIiwidHlwZSI6MX0.7lm2opUYLr_AssFDrVGvu04IpnyY3l9QP2nQO2DMk-M" data-store-type="1" class="inline-image" data-id="1001421155"&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-10-06T09:47:59-05:00</created-at>
+      <updated-at type="dateTime">2016-09-03T03:54:44-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018869</id>
+    <subject>Enable/Extrend Dreamspark Account for Students</subject>
+    <due-by type="dateTime">2015-10-22T13:37:00-05:00</due-by>
+    <display-id type="integer">19</display-id>
+    <requester-id type="integer">1000256778</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064431</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-10-20T13:39:31-05:00</created-at>
+    <updated-at type="dateTime">2015-10-20T15:13:24-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Paul Fabian</requester-name>
+    <owner-name nil="true"/>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018869</id>
+      <problem-id type="integer">1000018869</problem-id>
+      <description>The following tickets need the accounts activated or extended for access to Dreamspark</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;
+&lt;div&gt;The following tickets need the accounts activated or extended for access to Dreamspark&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-10-20T13:39:31-05:00</created-at>
+      <updated-at type="dateTime">2015-10-20T13:39:31-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000018995</id>
+    <subject>Issues Pertaining to the Recent Changes to the MSOE Website</subject>
+    <due-by type="dateTime">2015-11-05T16:48:00-06:00</due-by>
+    <display-id type="integer">20</display-id>
+    <requester-id type="integer">1000470377</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064431</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2015-11-03T16:55:17-06:00</created-at>
+    <updated-at type="dateTime">2015-11-03T16:55:17-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Benjamin Harris</requester-name>
+    <owner-name nil="true"/>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000018995</id>
+      <problem-id type="integer">1000018995</problem-id>
+      <description>After the changes to the msoe.edu website, there are a multitude of issues, generally involving dead links and broken redirects. This problem is being created as a placeholder for all these issues. 
+   
+ I am placing this in System Administrator queue per Ben's request.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;
+&lt;div&gt;After the changes to the msoe.edu website, there are a multitude of issues, generally involving dead links and broken redirects. This problem is being created as a placeholder for all these issues.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;I am placing this in System Administrator queue per Ben's request.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2015-11-03T16:55:17-06:00</created-at>
+      <updated-at type="dateTime">2015-11-03T16:55:17-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000019620</id>
+    <subject>unable to email class lists in my.msoe</subject>
+    <due-by type="dateTime">2016-01-30T08:27:00-06:00</due-by>
+    <display-id type="integer">21</display-id>
+    <requester-id type="integer">1000079037</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064432</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">true</known-error>
+    <created-at type="dateTime">2016-01-28T08:29:13-06:00</created-at>
+    <updated-at type="dateTime">2016-01-28T08:57:07-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Peter Pfister</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Database Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000016411</id>
+      <problem-id type="integer">1000019620</problem-id>
+      <user-id type="integer">1000079037</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> Faculty and advisors that have class rosters will be unable to send emails from my.msoe.  The class list will populate in the to field but will be unable to send the actual email.</description>
+      <description-html>&lt;div&gt; Faculty and advisors that have class rosters will be unable to send emails from my.msoe.  The class list will populate in the to field but will be unable to send the actual email.&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-01-28T08:32:39-06:00</created-at>
+      <updated-at type="dateTime">2016-01-28T08:32:39-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-symptom type="Itil::ProblemSymptom">
+      <id type="integer">1000000943</id>
+      <problem-id type="integer">1000019620</problem-id>
+      <user-id type="integer">1000079037</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> "Your email could not be sent due to an internal server error. Please try again, or contact an administrator for assistance."</description>
+      <description-html>&lt;div&gt; "Your email could not be sent due to an internal server error. Please try again, or contact an administrator for assistance."&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-01-28T08:33:32-06:00</created-at>
+      <updated-at type="dateTime">2016-01-28T08:33:32-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-symptom>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000016653</id>
+      <problem-id type="integer">1000019620</problem-id>
+      <user-id type="integer">1000079037</user-id>
+      <account-id type="integer">14966</account-id>
+      <description> Hosted Jenzabar is unable to connect to the mail server.</description>
+      <description-html>&lt;div&gt; Hosted Jenzabar is unable to connect to the mail server.&lt;br&gt;
+&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-01-28T08:33:16-06:00</created-at>
+      <updated-at type="dateTime">2016-01-28T08:33:16-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000019620</id>
+      <problem-id type="integer">1000019620</problem-id>
+      <description>  
+ I tried to send an email to my students using class list from my.msoe.edu but it gives me the following message. 
+ "Your email could not be sent due to an internal server error. Please try again, or contact an administrator for assistance."</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;I tried to send an email to my students using class list from my.msoe.edu but it gives me the following message.&lt;/div&gt;
+&lt;div style="margin-bottom:15px;"&gt;"Your email could not be sent due to an internal server error. Please try again, or contact an administrator for assistance."&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-01-28T08:29:13-06:00</created-at>
+      <updated-at type="dateTime">2016-01-28T08:29:13-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array">
+      <problem-article type="Itil::ProblemArticle">
+        <id type="integer">1000000984</id>
+        <problem-id type="integer">1000019620</problem-id>
+        <account-id type="integer">14966</account-id>
+        <article-id type="integer">1000021311</article-id>
+        <created-at type="dateTime">2016-01-28T08:37:31-06:00</created-at>
+        <updated-at type="dateTime">2016-01-28T08:37:31-06:00</updated-at>
+      </problem-article>
+    </problem-articles>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000020178</id>
+    <subject>Helpdesk Technicians Unable to View Tickets Elevated Above Tier One</subject>
+    <due-by type="dateTime">2016-04-30T09:51:00-05:00</due-by>
+    <display-id type="integer">22</display-id>
+    <requester-id type="integer">1000498730</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-03-23T10:07:24-05:00</created-at>
+    <updated-at type="dateTime">2016-03-23T10:07:24-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>TIER 1 TECHNICIAN</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000020178</id>
+      <problem-id type="integer">1000020178</problem-id>
+      <description>Fairly frequent occurrence where a requester will call the Helpdesk, ask for an update on a ticket. Ticket happens to be in a queue that is above tier one. Freshservice blocks us from viewing the ticket at all. This makes IT look disorganized, forces us to call the busy tier 2+ IT staff to simply read the status of the ticket. If this occurs outside normal business hours there is often no one else to contact, so we are forced to make another ticket simply asking for an update on the main ticket. There must be a better way to handle elevated tickets. In ITDirect we were at least able to see the status of elevated tickets. 
+   
+ This seems to stem from the beginning of our adoption of Freshservice when tier one staff was told to constantly check up on all open tickets. I believe that this will no longer be an issue, as tier one has been told not to do this.  
+   
+ This issue has been brought up during meetings but no official response is given. </description>
+      <description-html>&lt;div style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"&gt;
+&lt;div&gt;Fairly frequent occurrence where a requester will call the Helpdesk, ask for an update on a ticket. Ticket happens to be in a queue that is above tier one. Freshservice blocks us from viewing the ticket at all. This makes IT look disorganized, forces us to call the busy tier 2+ IT staff to simply read the status of the ticket. If this occurs outside normal business hours there is often no one else to contact, so we are forced to make another ticket simply asking for an update on the main ticket. There must be a better way to handle elevated tickets. In ITDirect we were at least able to see the status of elevated tickets.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;This seems to stem from the beginning of our adoption of Freshservice when tier one staff was told to constantly check up on all open tickets. I believe that this will no longer be an issue, as tier one has been told not to do this. &lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;This issue has been brought up during meetings but no official response is given. &lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-03-23T10:07:24-05:00</created-at>
+      <updated-at type="dateTime">2016-03-23T10:07:24-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000020748</id>
+    <subject>Forwarding Tickets to Community</subject>
+    <due-by type="dateTime">2016-06-19T09:47:00-05:00</due-by>
+    <display-id type="integer">23</display-id>
+    <requester-id type="integer">1000257076</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-06-17T09:54:48-05:00</created-at>
+    <updated-at type="dateTime">2016-06-20T15:46:59-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Kent Peterson</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000020748</id>
+      <problem-id type="integer">1000020748</problem-id>
+      <description>After logging in to the IT Helpdesk and randomly digging through tickets, I have come across several that indicated they had been forwarded to the MSOE Community for a response. 
+   
+  I am the MSOE Community, and none of these have been showing up in the Community email. Can someone check to ensure the email address for Community is "community@msoe.edu"? 
+   
+ Also, when a ticket is being assigned, the only agent listed in the drop-down under MSOE Community is Jordan Longato. He's a student who doesn't work in this department any more, so I'd like to have this changed to the staff person responsible for managing web help requests - that's me. I'm already in the agent list. Jordan shouldn't appear on the list as an option. 
+   
+ Also see ticket  #INC-8167.
+ 
+   
+ Thanks-- 
+   
+ Kent Peterson 
+ peterson@msoe.edu 
+ (414) 277-7176</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;After logging in to the IT Helpdesk and randomly digging through tickets, I have come across several that indicated they had been forwarded to the MSOE Community for a response.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt; I am the MSOE Community, and none of these have been showing up in the Community email. Can someone check to ensure the email address for Community is "community@msoe.edu"?&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Also, when a ticket is being assigned, the only agent listed in the drop-down under MSOE Community is Jordan Longato. He's a student who doesn't work in this department any more, so I'd like to have this changed to the staff person responsible for managing web help requests - that's me. I'm already in the agent list. Jordan shouldn't appear on the list as an option.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Also see ticket &lt;span style="font-size: 14px;"&gt; #&lt;/span&gt;&lt;span id="ticket-display-id" style="font-size: 14px;"&gt;INC-8167.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Thanks--&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;Kent Peterson&lt;/div&gt;
+&lt;div&gt;peterson@msoe.edu&lt;/div&gt;
+&lt;div&gt;(414) 277-7176&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-06-17T09:54:48-05:00</created-at>
+      <updated-at type="dateTime">2016-06-17T11:06:24-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000013984</id>
+        <body>This is related to Ticket  #INC-8167</body>
+        <body-html>&lt;div&gt;This is related to Ticket &lt;span style="color: rgb(85, 85, 85); font-size: 14px;"&gt; #&lt;/span&gt;&lt;span id="ticket-display-id" style="font-size: 14px; color: rgb(85, 85, 85);"&gt;INC-8167&lt;/span&gt;
+&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000020748</notable-id>
+        <user-id type="integer">1000257076</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-06-17T11:05:03-05:00</created-at>
+        <updated-at type="dateTime">2016-06-17T11:05:03-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000020941</id>
+    <subject>Add domain to Jive blocked list</subject>
+    <due-by type="dateTime">2016-07-14T13:43:00-05:00</due-by>
+    <display-id type="integer">24</display-id>
+    <requester-id type="integer">1000257076</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064431</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-07-12T13:51:17-05:00</created-at>
+    <updated-at type="dateTime">2016-07-12T13:51:17-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Kent Peterson</requester-name>
+    <owner-name nil="true"/>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000020941</id>
+      <problem-id type="integer">1000020941</problem-id>
+      <description>We're getting a large number of spam accounts being set up recently by spammers using "iningo.net" as their email domain. Can you please add this domain to the blocked list for Jive?</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;We're getting a large number of spam accounts being set up recently by spammers using "iningo.net" as their email domain. Can you please add this domain to the blocked list for Jive?&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-07-12T13:51:17-05:00</created-at>
+      <updated-at type="dateTime">2016-07-12T13:51:17-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021301</id>
+    <subject>L304 Projector Not Turning On</subject>
+    <due-by type="dateTime">2016-09-14T12:48:00-05:00</due-by>
+    <display-id type="integer">25</display-id>
+    <requester-id type="integer">1000258148</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-09-12T12:50:27-05:00</created-at>
+    <updated-at type="dateTime">2016-09-12T12:50:49-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Ben Ehr</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021301</id>
+      <problem-id type="integer">1000021301</problem-id>
+      <description>The left projector in L304 is not turning on/receiving signal to project.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;The left projector in L304 is not turning on/receiving signal to project.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-09-12T12:50:27-05:00</created-at>
+      <updated-at type="dateTime">2016-09-12T12:50:27-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021369</id>
+    <subject>Can't log into box. </subject>
+    <due-by type="dateTime">2016-09-23T15:11:00-05:00</due-by>
+    <display-id type="integer">26</display-id>
+    <requester-id type="integer">1000258675</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-09-21T15:18:32-05:00</created-at>
+    <updated-at type="dateTime">2016-09-21T15:18:32-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Spencer Jones</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021369</id>
+      <problem-id type="integer">1000021369</problem-id>
+      <description>Student got laptop re-imaged recently. 
+ He cannot log into box. 
+ He can login from box.msoe.edu but his files are updated after 2015 aren't updated. 
+ He is going to stop by the helpdesk soon.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Student got laptop re-imaged recently.&lt;/div&gt;
+&lt;div&gt;He cannot log into box.&lt;/div&gt;
+&lt;div&gt;He can login from box.msoe.edu but his files are updated after 2015 aren't updated.&lt;/div&gt;
+&lt;div&gt;He is going to stop by the helpdesk soon.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-09-21T15:18:32-05:00</created-at>
+      <updated-at type="dateTime">2016-09-21T15:18:32-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021399</id>
+    <subject>Can't access M drive</subject>
+    <due-by type="dateTime">2016-09-29T10:24:00-05:00</due-by>
+    <display-id type="integer">27</display-id>
+    <requester-id type="integer">1000259379</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064431</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-09-27T10:29:24-05:00</created-at>
+    <updated-at type="dateTime">2016-09-27T11:25:15-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Ricky Pearson</requester-name>
+    <owner-name nil="true"/>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021399</id>
+      <problem-id type="integer">1000021399</problem-id>
+      <description>Used to be ME major.  Since he switched to CM, he cannot access the M drive because his email lists him as being in the ME department. He need access for senior design.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Used to be ME major.  Since he switched to CM, he cannot access the M drive because his email lists him as being in the ME department. He need access for senior design.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-09-27T10:29:24-05:00</created-at>
+      <updated-at type="dateTime">2016-09-27T10:29:24-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000015993</id>
+        <body>Hello, this is Gerry (a Tier 1 technician) I think I technically should have logged this as an "issue" and not a "problem."  My apologies.</body>
+        <body-html>&lt;div&gt;Hello, this is Gerry (a Tier 1 technician) I think I technically should have logged this as an "issue" and not a "problem."  My apologies.&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000021399</notable-id>
+        <user-id type="integer">1000079037</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-09-27T10:32:31-05:00</created-at>
+        <updated-at type="dateTime">2016-09-27T10:32:31-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+      <note type="Itil::Note">
+        <id type="integer">1000015995</id>
+        <body>From Gerry:  I created a new incident for this issue, and closed the "problem."</body>
+        <body-html>&lt;div&gt;From Gerry:  I created a new incident for this issue, and closed the "problem."&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000021399</notable-id>
+        <user-id type="integer">1000079037</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-09-27T11:25:56-05:00</created-at>
+        <updated-at type="dateTime">2016-09-27T11:25:56-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021468</id>
+    <subject>Touch pad issues</subject>
+    <due-by type="dateTime">2016-10-03T12:17:00-05:00</due-by>
+    <display-id type="integer">28</display-id>
+    <requester-id type="integer">1000258378</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-10-01T12:19:02-05:00</created-at>
+    <updated-at type="dateTime">2016-10-01T12:19:02-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Medium</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Jasmine Gooden</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021467</id>
+      <problem-id type="integer">1000021468</problem-id>
+      <description>Touchpad fast scrolls screen.  
+ Mouse jumps to task bar. 
+ Doesn't click.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Touchpad fast scrolls screen. &lt;/div&gt;
+&lt;div&gt;Mouse jumps to task bar.&lt;/div&gt;
+&lt;div&gt;Doesn't click.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-01T12:19:02-05:00</created-at>
+      <updated-at type="dateTime">2016-10-01T13:09:26-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021513</id>
+    <subject>MSOE community page</subject>
+    <due-by type="dateTime">2016-10-17T13:28:00-05:00</due-by>
+    <display-id type="integer">29</display-id>
+    <requester-id type="integer">1000696927</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064432</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-10-10T13:35:20-05:00</created-at>
+    <updated-at type="dateTime">2016-10-10T13:35:20-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Schill Deborah</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Database Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021512</id>
+      <problem-id type="integer">1000021513</problem-id>
+      <description>MSOE community account not working, also has possible email account issues not being transferred properly.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;MSOE community account not working, also has possible email account issues not being transferred properly.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-10T13:35:20-05:00</created-at>
+      <updated-at type="dateTime">2016-10-10T13:35:20-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000016401</id>
+        <body>KH- Possible issues with transferring from old msoe account to alumni.msoe account causing issues with logging in to community account </body>
+        <body-html>&lt;div&gt;KH- Possible issues with transferring from old msoe account to alumni.msoe account causing issues with logging in to community account &lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000021513</notable-id>
+        <user-id type="integer">1000498730</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-10-10T13:37:03-05:00</created-at>
+        <updated-at type="dateTime">2016-10-10T13:37:03-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021514</id>
+    <subject>Printer</subject>
+    <due-by type="dateTime">2016-10-14T15:27:00-05:00</due-by>
+    <display-id type="integer">30</display-id>
+    <requester-id type="integer">1000696970</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000203828</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-10-10T15:31:45-05:00</created-at>
+    <updated-at type="dateTime">2016-10-27T09:35:29-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Medium</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Medium</impact-name>
+    <requester-name>Rich Merkel</requester-name>
+    <owner-name nil="true"/>
+    <group-name>PRINTER ISSUES</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021513</id>
+      <problem-id type="integer">1000021514</problem-id>
+      <description>K-131 printer give message that it is not online-KH</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;K-131 printer give message that it is not online-KH&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-10T15:31:45-05:00</created-at>
+      <updated-at type="dateTime">2016-10-10T15:31:45-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021533</id>
+    <subject>excel printing issue</subject>
+    <due-by type="dateTime">2016-10-14T14:33:00-05:00</due-by>
+    <display-id type="integer">31</display-id>
+    <requester-id type="integer">1000257102</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-10-12T14:40:01-05:00</created-at>
+    <updated-at type="dateTime">2016-10-12T14:40:01-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Kathleen Raczynski</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021532</id>
+      <problem-id type="integer">1000021533</problem-id>
+      <description>Trying to print an excel schedule that should be around 50 pages but it is trying to print 130+ pages with mostly black pages.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Trying to print an excel schedule that should be around 50 pages but it is trying to print 130+ pages with mostly black pages.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-10-12T14:40:01-05:00</created-at>
+      <updated-at type="dateTime">2016-10-12T14:40:01-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000016475</id>
+        <body>KH-She is open today until 4 and tomorrow 12-4. RM: CC160</body>
+        <body-html>&lt;div&gt;KH-She is open today until 4 and tomorrow 12-4. RM: CC160&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000021533</notable-id>
+        <user-id type="integer">1000498730</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2016-10-12T14:41:02-05:00</created-at>
+        <updated-at type="dateTime">2016-10-12T14:41:02-05:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021635</id>
+    <subject>Adjunct Faculty Member Needs Laptop and Adobe Creative Cloud Access</subject>
+    <due-by type="dateTime">2016-11-03T15:21:00-05:00</due-by>
+    <display-id type="integer">32</display-id>
+    <requester-id type="integer">1000256759</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-11-01T15:23:57-05:00</created-at>
+    <updated-at type="dateTime">2016-11-01T15:30:08-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Dr. Alicia Domack</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021634</id>
+      <problem-id type="integer">1000021635</problem-id>
+      <description>Amy Lapointe 
+ Adjunct Faculty 
+   
+ Needs laptop and access to Adobe Creative Cloud </description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Amy Lapointe&lt;/div&gt;
+&lt;div&gt;Adjunct Faculty&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;Needs laptop and access to Adobe Creative Cloud &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-11-01T15:23:57-05:00</created-at>
+      <updated-at type="dateTime">2016-11-01T15:30:01-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021832</id>
+    <subject>Alumni email access and password reset</subject>
+    <due-by type="dateTime">2016-12-23T13:15:00-06:00</due-by>
+    <display-id type="integer">33</display-id>
+    <requester-id type="integer">1000498730</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-12-21T13:16:27-06:00</created-at>
+    <updated-at type="dateTime">2016-12-21T13:16:27-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>TIER 1 TECHNICIAN</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000016955</id>
+      <problem-id type="integer">1000021832</problem-id>
+      <user-id type="integer">1000498730</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Alumni trying to access important MSOE emails. Maybe there are some relating to Financial Aid / student loans.</description>
+      <description-html>&lt;div&gt;Alumni trying to access important MSOE emails. Maybe there are some relating to Financial Aid / student loans.&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-12-21T13:17:21-06:00</created-at>
+      <updated-at type="dateTime">2016-12-21T13:17:21-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021831</id>
+      <problem-id type="integer">1000021832</problem-id>
+      <description>Many Alumni can't access their email after changing their password.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Many Alumni can't access their email after changing their password.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-12-21T13:16:27-06:00</created-at>
+      <updated-at type="dateTime">2016-12-21T13:16:27-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021833</id>
+    <subject>Graduate student password reset</subject>
+    <due-by type="dateTime">2016-12-23T13:17:00-06:00</due-by>
+    <display-id type="integer">34</display-id>
+    <requester-id type="integer">1000498730</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2016-12-21T13:19:36-06:00</created-at>
+    <updated-at type="dateTime">2017-04-18T11:02:40-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000038916</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>TIER 1 TECHNICIAN</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name>Finance</department-name>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000016956</id>
+      <problem-id type="integer">1000021833</problem-id>
+      <user-id type="integer">1000498730</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Graduate students whose passwords have expired</description>
+      <description-html>&lt;div&gt;Graduate students whose passwords have expired&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-12-21T13:20:05-06:00</created-at>
+      <updated-at type="dateTime">2016-12-21T13:20:05-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000017299</id>
+      <problem-id type="integer">1000021833</problem-id>
+      <user-id type="integer">1000498730</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Password reset policy</description>
+      <description-html>&lt;div&gt;Password reset policy&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2016-12-21T13:19:48-06:00</created-at>
+      <updated-at type="dateTime">2016-12-21T13:19:48-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021832</id>
+      <problem-id type="integer">1000021833</problem-id>
+      <description>Due to our policy of not resetting passwords over the phone, many graduate students cannot access their accounts once their passwords have expired.  They live far away from campus, and cannot conveniently come to the helpdesk to have someone reset it.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Due to our policy of not resetting passwords over the phone, many graduate students cannot access their accounts once their passwords have expired.  They live far away from campus, and cannot conveniently come to the helpdesk to have someone reset it.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2016-12-21T13:19:36-06:00</created-at>
+      <updated-at type="dateTime">2016-12-21T13:19:36-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000021946</id>
+    <subject>Grohmann Towers wireless issues after circuit changeover</subject>
+    <due-by type="dateTime">2017-01-28T16:43:00-06:00</due-by>
+    <display-id type="integer">35</display-id>
+    <requester-id type="integer">1000079037</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-01-26T16:45:52-06:00</created-at>
+    <updated-at type="dateTime">2017-01-30T15:08:04-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086658</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Peter Pfister</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name>IT-Staff</department-name>
+    <problem-symptom type="Itil::ProblemSymptom">
+      <id type="integer">1000001404</id>
+      <problem-id type="integer">1000021946</problem-id>
+      <user-id type="integer">1000079037</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>  the internet takes 5 minutes for a google page to load from my room 
+(room number 411) whereas when I pass the electrical room area
+ towards the main hall on the fourth floor, it works perfectly fine and 
+loads in seconds like normal. I don’t know why but I feel like there is 
+data loss after that point in the hallway where the rooms are and it 
+doesn’t seem to load in my room but there wasn’t
+ this issue until after 4am in the morning when I slept. I noticed this 
+issue only this morning.  So far, I've seen only a few issues, the first being that I can no 
+longer connect to battle.net, a game service by Blizzard, from
+ the Tower apartments, however I can from other places.  I was also 
+prompted by another game that said that the NAT settings are set to 
+strict, which I never got before.  Both of these only started today. 
+   
+</description>
+      <description-html>&lt;div&gt; the internet takes 5 minutes for a google page to load from my room 
+(room number 411) whereas when I pass the electrical room area
+ towards the main hall on the fourth floor, it works perfectly fine and 
+loads in seconds like normal. I don’t know why but I feel like there is 
+data loss after that point in the hallway where the rooms are and it 
+doesn’t seem to load in my room but there wasn’t
+ this issue until after 4am in the morning when I slept. I noticed this 
+issue only this morning.&lt;br&gt;&lt;br&gt;So far, I've seen only a few issues, the first being that I can no 
+longer connect to battle.net, a game service by Blizzard, from
+ the Tower apartments, however I can from other places.  I was also 
+prompted by another game that said that the NAT settings are set to 
+strict, which I never got before.  Both of these only started today.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2017-01-26T16:48:56-06:00</created-at>
+      <updated-at type="dateTime">2017-01-26T16:50:33-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-symptom>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000021945</id>
+      <problem-id type="integer">1000021946</problem-id>
+      <description> Several reports of very slow speed over the Tower wireless.  The signal strength is there, 2 bars at least, but the download speed is very poor.  In the Hallways leading up to apt is 80Kbps and there is nothing once in the apartments.</description>
+      <description-html>&lt;div style="font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;"&gt;
+&lt;div&gt; Several reports of very slow speed over the Tower wireless.  The signal strength is there, 2 bars at least, but the download speed is very poor.  In the Hallways leading up to apt is 80Kbps and there is nothing once in the apartments.&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-01-26T16:45:52-06:00</created-at>
+      <updated-at type="dateTime">2017-01-26T16:45:52-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000022031</id>
+    <subject>password reset request</subject>
+    <due-by type="dateTime">2017-02-16T15:12:00-06:00</due-by>
+    <display-id type="integer">36</display-id>
+    <requester-id type="integer">1000747599</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer">1000040482</change-id>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-02-14T15:14:00-06:00</created-at>
+    <updated-at type="dateTime">2017-04-18T11:02:20-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Houghtonp</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change>password reset request</assoc-change>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000022030</id>
+      <problem-id type="integer">1000022031</problem-id>
+      <description>He</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;He&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-02-14T15:14:00-06:00</created-at>
+      <updated-at type="dateTime">2017-02-14T15:14:00-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000022040</id>
+    <subject>User unable to put in Budget for his department</subject>
+    <due-by type="dateTime">2017-02-15T19:00:00-06:00</due-by>
+    <display-id type="integer">37</display-id>
+    <requester-id type="integer">1000256920</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-02-15T13:21:20-06:00</created-at>
+    <updated-at type="dateTime">2017-02-15T13:34:11-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086621</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Urgent</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>High</impact-name>
+    <requester-name>Dr. Medhat Khalil</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name>Unknown-Faculty</department-name>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000022039</id>
+      <problem-id type="integer">1000022040</problem-id>
+      <description>Authentication error when user tries to use following website. 
+ site - resources.msoe.edu/treasury/budget 
+   
+ He is traveling and needs access immediately.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;Authentication error when user tries to use following website.&lt;/div&gt;
+&lt;div&gt;site - resources.msoe.edu/treasury/budget&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;He is traveling and needs access immediately.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-02-15T13:21:20-06:00</created-at>
+      <updated-at type="dateTime">2017-02-15T13:21:20-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000018868</id>
+        <body>Do you mean it is resolves?, I just checked and the same error still there?  
+ Please advise  
+     
+ Dr. Medhat Khalil, Ph.D.  
+ Director of Professional Education &amp; Research Development  
+ Certified Fluid Power Hydraulic Specialist  
+ Accredited Fluid Power Instructor  
+ Applied Technology Center  
+ Milwaukee School of Engineering  
+ Tel:  414-277-7269 Cell: 414-940-2232  
+ Fax: 414-277-7470  
+khalil@msoe.edu  
+ Add: 1025 N. Broadway, Milwaukee, WI, 53202-3109, USA  
+     
+   
+ From: helpdesk [mailto:helpdesk@msoe.edu]
+ 
+Sent: Wednesday, February 15, 2017 1:34 PM 
+To: Khalil, Dr. Medhat &lt;khalil@msoe.edu&gt; 
+Subject: Problem Closed - [#PRB-37] User unable to put in Budget for his department  
+ 
+   
+ 
+ Hi Medhat Khalil,
+ 
+ 
+The problem you requested (#PRB-37) has been closed.  
+ 
+In case you would like to know anything more about this problem, please click on the link below..
+ 
+http://helpdesk.msoe.edu/itil/problems/37 
+ 
+Regards, 
+MSOE IT Support  
+ [#PRB-37]</body>
+        <body-html>&lt;div class="WordSection1"&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;Do you mean it is resolves?, I just checked and the same error still there?&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;Please advise&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:#C00000'&gt;Dr. Medhat Khalil, Ph.D.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:#C00000'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;b&gt;&lt;span style='font-size:8.0pt;font-family:"Arial",sans-serif;color:black'&gt;Director of Professional Education &amp;amp; Research Development&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt;Certified Fluid Power Hydraulic Specialist&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt;Accredited&lt;/span&gt;&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt; Fluid Power Instructor&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;b&gt;&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt;Applied Technology Center&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;&lt;a href="http://www.msoe.edu/seminars" rel="noreferrer"&gt;Milwaukee School of Engineering&lt;/a&gt;&lt;/span&gt;&lt;/b&gt;&lt;u&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:blue'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/u&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;Tel:  414-277-7269 Cell: 414-940-2232&lt;/span&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:black'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;Fax: 414-277-7470  
+&lt;b&gt;&lt;a href="mailto:khalil@msoe.edu" title="Email me" rel="noreferrer"&gt;khalil@msoe.edu&lt;/a&gt;&lt;/b&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;Add: 1025 N. Broadway, Milwaukee, WI, 53202-3109, USA&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:black'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="freshdesk_quote"&gt;&lt;blockquote class="freshdesk_quote"&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif'&gt;From:&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif'&gt; helpdesk [mailto:helpdesk@msoe.edu]
+&lt;br&gt;
+&lt;b&gt;Sent:&lt;/b&gt; Wednesday, February 15, 2017 1:34 PM&lt;br&gt;
+&lt;b&gt;To:&lt;/b&gt; Khalil, Dr. Medhat &amp;lt;khalil@msoe.edu&amp;gt;&lt;br&gt;
+&lt;b&gt;Subject:&lt;/b&gt; Problem Closed - [#PRB-37] User unable to put in Budget for his department&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'&gt;Hi Medhat Khalil,
+&lt;br&gt;
+&lt;br&gt;
+The problem you requested (#PRB-37) has been closed. &lt;br&gt;
+&lt;br&gt;
+In case you would like to know anything more about this problem, please click on the link below..
+&lt;br&gt;
+&lt;a href="http://helpdesk.msoe.edu/itil/problems/37" rel="noreferrer"&gt;http://helpdesk.msoe.edu/itil/problems/37&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+Regards,&lt;br&gt;
+MSOE IT Support&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:1.0pt;font-family:"fdtktid",serif;color:white'&gt;[#PRB-37]&lt;/span&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'&gt;
+&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/blockquote&gt;&lt;/div&gt;</body-html>
+        <to-emails type="array">
+          <to-email>Helpdesk &lt;helpdesk@msoe.edu&gt;</to-email>
+        </to-emails>
+        <cc-emails type="array">
+          <cc-email>"kamara</cc-email>
+          <cc-email>kamara@msoe.edu</cc-email>
+        </cc-emails>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000022040</notable-id>
+        <user-id type="integer">1000256920</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2017-02-15T13:36:59-06:00</created-at>
+        <updated-at type="dateTime">2017-02-15T13:36:59-06:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+      <note type="Itil::Note">
+        <id type="integer">1000018869</id>
+        <body>I’m not even able to log in to see the status, he is given me an email/PW combination error!!!  
+     
+ Dr. Medhat Khalil, Ph.D.  
+ Director of Professional Education &amp; Research Development  
+ Certified Fluid Power Hydraulic Specialist  
+ Accredited Fluid Power Instructor  
+ Applied Technology Center  
+ Milwaukee School of Engineering  
+ Tel:  414-277-7269 Cell: 414-940-2232  
+ Fax: 414-277-7470  
+khalil@msoe.edu  
+ Add: 1025 N. Broadway, Milwaukee, WI, 53202-3109, USA  
+     
+   
+ From: helpdesk [mailto:helpdesk@msoe.edu]
+ 
+Sent: Wednesday, February 15, 2017 1:34 PM 
+To: Khalil, Dr. Medhat &lt;khalil@msoe.edu&gt; 
+Subject: Problem Closed - [#PRB-37] User unable to put in Budget for his department  
+ 
+   
+ 
+ Hi Medhat Khalil,
+ 
+ 
+The problem you requested (#PRB-37) has been closed.  
+ 
+In case you would like to know anything more about this problem, please click on the link below..
+ 
+http://helpdesk.msoe.edu/itil/problems/37 
+ 
+Regards, 
+MSOE IT Support  
+ [#PRB-37]</body>
+        <body-html>&lt;div class="WordSection1"&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;I’m not even able to log in to see the status, he is given me an email/PW combination error!!!&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:#C00000'&gt;Dr. Medhat Khalil, Ph.D.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:#C00000'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;b&gt;&lt;span style='font-size:8.0pt;font-family:"Arial",sans-serif;color:black'&gt;Director of Professional Education &amp;amp; Research Development&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt;Certified Fluid Power Hydraulic Specialist&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt;Accredited&lt;/span&gt;&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt; Fluid Power Instructor&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;b&gt;&lt;span style='font-size:8.0pt;font-family:"Comic Sans MS";color:black'&gt;Applied Technology Center&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;a href="http://www.msoe.edu/seminars" rel="noreferrer"&gt;&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif'&gt;Milwaukee School of Engineering&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;u&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:blue'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/u&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;Tel:  414-277-7269 Cell: 414-940-2232&lt;/span&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:black'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;Fax: 414-277-7470  
+&lt;/span&gt;&lt;a href="mailto:khalil@msoe.edu" title="Email me" rel="noreferrer"&gt;&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif'&gt;khalil@msoe.edu&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/b&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Arial",sans-serif;color:black'&gt;Add: 1025 N. Broadway, Milwaukee, WI, 53202-3109, USA&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:black'&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style="color:black"&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="freshdesk_quote"&gt;&lt;blockquote class="freshdesk_quote"&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif'&gt;From:&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif'&gt; helpdesk [mailto:helpdesk@msoe.edu]
+&lt;br&gt;
+&lt;b&gt;Sent:&lt;/b&gt; Wednesday, February 15, 2017 1:34 PM&lt;br&gt;
+&lt;b&gt;To:&lt;/b&gt; Khalil, Dr. Medhat &amp;lt;khalil@msoe.edu&amp;gt;&lt;br&gt;
+&lt;b&gt;Subject:&lt;/b&gt; Problem Closed - [#PRB-37] User unable to put in Budget for his department&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'&gt;Hi Medhat Khalil,
+&lt;br&gt;
+&lt;br&gt;
+The problem you requested (#PRB-37) has been closed. &lt;br&gt;
+&lt;br&gt;
+In case you would like to know anything more about this problem, please click on the link below..
+&lt;br&gt;
+&lt;/span&gt;&lt;a href="http://helpdesk.msoe.edu/itil/problems/37" rel="noreferrer"&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'&gt;http://helpdesk.msoe.edu/itil/problems/37&lt;/span&gt;&lt;/a&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'&gt;&lt;br&gt;
+&lt;br&gt;
+Regards,&lt;br&gt;
+MSOE IT Support&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:1.0pt;font-family:"fdtktid",serif;color:white'&gt;[#PRB-37]&lt;/span&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'&gt;
+&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/blockquote&gt;&lt;/div&gt;</body-html>
+        <to-emails type="array">
+          <to-email>Helpdesk &lt;helpdesk@msoe.edu&gt;</to-email>
+        </to-emails>
+        <cc-emails type="array"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000022040</notable-id>
+        <user-id type="integer">1000256920</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2017-02-15T13:40:02-06:00</created-at>
+        <updated-at type="dateTime">2017-02-15T13:40:02-06:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000022117</id>
+    <subject>Wireless Issues in Library during POC</subject>
+    <due-by type="dateTime">2017-03-05T15:02:00-06:00</due-by>
+    <display-id type="integer">38</display-id>
+    <requester-id type="integer">1000256778</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-03-03T15:04:25-06:00</created-at>
+    <updated-at type="dateTime">2017-03-03T15:04:25-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086664</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Paul Fabian</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name>CCSD-Staff</department-name>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000022116</id>
+      <problem-id type="integer">1000022117</problem-id>
+      <description>This is a problem tracker for any problems reported in the Library during the Ruckus Proof of Concept. Tickets should be merged into this problem for proper tracking.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;This is a problem tracker for any problems reported in the Library during the Ruckus Proof of Concept. Tickets should be merged into this problem for proper tracking.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-03-03T15:04:25-06:00</created-at>
+      <updated-at type="dateTime">2017-03-03T15:04:25-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000019185</id>
+        <body>Testing Problem response via email  
+     
+ Paul Fabian  
+ MSOE Director of IT Services  
+ fabian@msoe.edu  
+ (414) 277-2355  
+     
+     
+   
+ From: helpdesk [mailto:helpdesk@msoe.edu]
+ 
+Sent: Friday, March 03, 2017 3:04 PM 
+To: Fabian, Paul &lt;fabian@msoe.edu&gt; 
+Subject: New Problem created - [#PRB-38] Wireless Issues in Library during POC  
+ 
+   
+ 
+ Hi Paul Fabian,  
+ 
+Your problem (#PRB-38) has been created successfully.  
+ 
+From: Paul Fabian fabian@msoe.edu 
+ 
+Wireless Issues in Library during POC  
+ 
+ 
+ This is a problem tracker for any problems reported in the Library during the Ruckus Proof of Concept. Tickets should be merged into this problem for proper tracking.  
+ 
+ 
+  
+ 
+Priority: Low  
+Impact: Low 
+Due By: Sun, 5 Mar, 2017 at 3:02 PM GMT -0600 
+ 
+You can check the status of your problem and view its progress using the link below.   
+http://helpdesk.msoe.edu/itil/problems/38 
+ 
+Regards, 
+MSOE IT Support  
+ [#PRB-38]</body>
+        <body-html>&lt;div class="WordSection1"&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;Testing Problem response via email&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;Paul Fabian&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;MSOE Director of IT Services&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;&lt;a href="mailto:fabian@msoe.edu" rel="noreferrer"&gt;&lt;span style="color:#0563C1"&gt;fabian@msoe.edu&lt;/span&gt;&lt;/a&gt;&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;(414) 277-2355&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'&gt;&lt;div&gt; &lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="freshdesk_quote"&gt;&lt;blockquote class="freshdesk_quote"&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif'&gt;From:&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:11.0pt;font-family:"Calibri",sans-serif'&gt; helpdesk [mailto:helpdesk@msoe.edu]
+&lt;br&gt;
+&lt;b&gt;Sent:&lt;/b&gt; Friday, March 03, 2017 3:04 PM&lt;br&gt;
+&lt;b&gt;To:&lt;/b&gt; Fabian, Paul &amp;lt;fabian@msoe.edu&amp;gt;&lt;br&gt;
+&lt;b&gt;Subject:&lt;/b&gt; New Problem created - [#PRB-38] Wireless Issues in Library during POC&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica Neue"'&gt;Hi Paul Fabian, &lt;br&gt;
+&lt;br&gt;
+Your problem (#PRB-38) has been created successfully. &lt;br&gt;
+&lt;br&gt;
+From: Paul Fabian &lt;a href="mailto:fabian@msoe.edu" rel="noreferrer"&gt;fabian@msoe.edu&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+Wireless Issues in Library during POC&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica Neue"'&gt;This is a problem tracker for any problems reported in the Library during the Ruckus Proof of Concept. Tickets should be merged into this problem for proper tracking.&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica Neue"'&gt;&lt;br&gt;
+&lt;br&gt;
+Priority: Low &lt;br&gt;
+Impact: Low&lt;br&gt;
+Due By: Sun, 5 Mar, 2017 at 3:02 PM GMT -0600&lt;br&gt;
+&lt;br&gt;
+You can check the status of your problem and view its progress using the link below.  &lt;br&gt;
+&lt;a href="http://helpdesk.msoe.edu/itil/problems/38" rel="noreferrer"&gt;http://helpdesk.msoe.edu/itil/problems/38&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+Regards,&lt;br&gt;
+MSOE IT Support&lt;div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="MsoNormal"&gt;
+&lt;span style='font-size:1.0pt;font-family:"fdtktid",serif;color:white'&gt;[#PRB-38]&lt;/span&gt;&lt;span style='font-size:10.0pt;font-family:"Helvetica Neue"'&gt;
+&lt;div&gt;&lt;/div&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/blockquote&gt;&lt;/div&gt;</body-html>
+        <to-emails type="array">
+          <to-email>Helpdesk &lt;helpdesk@msoe.edu&gt;</to-email>
+        </to-emails>
+        <cc-emails type="array"/>
+        <deleted type="boolean">true</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000022117</notable-id>
+        <user-id type="integer">1000256778</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2017-03-03T15:05:28-06:00</created-at>
+        <updated-at type="dateTime">2017-03-03T15:53:55-06:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000022894</id>
+    <subject>time clock internet access</subject>
+    <due-by type="dateTime">2017-08-31T12:49:00-05:00</due-by>
+    <display-id type="integer">39</display-id>
+    <requester-id type="integer">1000469521</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-07-19T12:55:43-05:00</created-at>
+    <updated-at type="dateTime">2017-11-05T15:21:03-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086640</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>John Hornburg</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name>Unknown-Staff</department-name>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000022893</id>
+      <problem-id type="integer">1000022894</problem-id>
+      <description>Contact contractor to review ports to be installed, length to closet, and costs.   
+ John, please give descriptions for locations to the best of your ability so the contractor knows the general location.  
+   
+   
+ I need internet access to our two new time clocks. One RWJ kitchen area, one at skylight cafe 
+ see john for location</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;Contact contractor to review ports to be installed, length to closet, and costs.&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;John, please give descriptions for locations to the best of your ability so the contractor knows the general location.&lt;br&gt;&lt;div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;I need internet access to our two new time clocks. One RWJ kitchen area, one at skylight cafe&lt;/div&gt;
+&lt;div&gt;see john for location&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-07-19T12:55:43-05:00</created-at>
+      <updated-at type="dateTime">2017-07-19T12:55:43-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>John</first_name_14966>
+      <last_name_14966>Hornburg</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000022895</id>
+    <subject>GM 002 AV system doesn't work.</subject>
+    <due-by type="dateTime">2017-07-21T16:15:00-05:00</due-by>
+    <display-id type="integer">40</display-id>
+    <requester-id type="integer">1000688144</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000201774</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-07-19T16:18:22-05:00</created-at>
+    <updated-at type="dateTime">2017-07-19T16:20:34-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>AV Technician</requester-name>
+    <owner-name nil="true"/>
+    <group-name>A/V Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000022894</id>
+      <problem-id type="integer">1000022895</problem-id>
+      <description>The touch panel is shutoff. the projector doesn't receive any input/signal.</description>
+      <description-html>&lt;div style='font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'&gt;
+&lt;div&gt;The touch panel is shutoff. the projector doesn't receive any input/signal.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-07-19T16:18:22-05:00</created-at>
+      <updated-at type="dateTime">2017-07-19T16:18:22-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Shravanthi</first_name_14966>
+      <last_name_14966>Bangalore</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000023402</id>
+    <subject>Ongoing Network Issues - Wired and Wireless</subject>
+    <due-by type="dateTime">2017-11-06T09:31:00-06:00</due-by>
+    <display-id type="integer">41</display-id>
+    <requester-id type="integer">1000256778</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-11-03T09:36:51-05:00</created-at>
+    <updated-at type="dateTime">2017-11-05T15:24:42-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086664</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>High</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>High</impact-name>
+    <requester-name>Paul Fabian</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name>CCSD-Staff</department-name>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000017342</id>
+      <problem-id type="integer">1000023402</problem-id>
+      <user-id type="integer">1000256778</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>devices became saturated with ARP requests causing them to fail, and the topology to change. </description>
+      <description-html>&lt;div&gt;devices became saturated with ARP requests causing them to fail, and the topology to change. &lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2017-11-05T15:23:08-06:00</created-at>
+      <updated-at type="dateTime">2017-11-05T15:23:08-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-cause type="Itil::ProblemCause">
+      <id type="integer">1000017781</id>
+      <problem-id type="integer">1000023402</problem-id>
+      <user-id type="integer">1000256778</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Network ARP flooding due to introduction of a unmanaged switch or device. We have limited the reach of flooding on non-edge switches and reduced the overall ability to cause loops and floods on edge devices.</description>
+      <description-html>&lt;div&gt;Network ARP flooding due to introduction of a unmanaged switch or device. We have limited the reach of flooding on non-edge switches and reduced the overall ability to cause loops and floods on edge devices.&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2017-11-05T15:22:39-06:00</created-at>
+      <updated-at type="dateTime">2017-11-05T15:22:39-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-cause>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000023401</id>
+      <problem-id type="integer">1000023402</problem-id>
+      <description>Campus-wide issues with the network causing random switch outages, slow network speeds, saturated ports, and dropped wireless access points. The network team continues to address these issue. Please associate wireless and wired complaints and slowness issues to this ticket.</description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;div&gt;Campus-wide issues with the network causing random switch outages, slow network speeds, saturated ports, and dropped wireless access points. The network team continues to address these issue. Please associate wireless and wired complaints and slowness issues to this ticket.&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-11-03T09:36:51-05:00</created-at>
+      <updated-at type="dateTime">2017-11-03T09:36:51-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Paul</first_name_14966>
+      <last_name_14966>Fabian</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000023561</id>
+    <subject>Student having issues with Kaspersky and WAMP server</subject>
+    <due-by type="dateTime">2017-12-08T18:24:00-06:00</due-by>
+    <display-id type="integer">42</display-id>
+    <requester-id type="integer">1000257464</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000204778</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-12-04T18:28:32-06:00</created-at>
+    <updated-at type="dateTime">2017-12-04T18:29:04-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Neal G BC Almohaimeed</requester-name>
+    <owner-name nil="true"/>
+    <group-name>TIER 1 TECHNICIAN</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000023560</id>
+      <problem-id type="integer">1000023561</problem-id>
+      <description>Wamp not connecting and other issues </description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div&gt;Wamp not connecting and other issues &lt;/div&gt;&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-12-04T18:28:32-06:00</created-at>
+      <updated-at type="dateTime">2017-12-04T18:28:32-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Neal</first_name_14966>
+      <last_name_14966>Almohaimeed</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000023636</id>
+    <subject>Grohman Tower internet is recently slow</subject>
+    <due-by type="dateTime">2017-12-23T09:57:00-06:00</due-by>
+    <display-id type="integer">43</display-id>
+    <requester-id type="integer">1000079037</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2017-12-21T10:25:48-06:00</created-at>
+    <updated-at type="dateTime">2017-12-21T16:44:41-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086658</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Peter Pfister</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name>IT-Staff</department-name>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000023635</id>
+      <problem-id type="integer">1000023636</problem-id>
+      <description> Many residents of the Grohman Towers have complained about very slow performance.</description>
+      <description-html>&lt;div style="font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;"&gt;
+&lt;div&gt; Many residents of the Grohman Towers have complained about very slow performance.&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2017-12-21T10:25:48-06:00</created-at>
+      <updated-at type="dateTime">2017-12-21T10:25:48-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <id_number_14966>129587</id_number_14966>
+      <first_name_14966>Peter</first_name_14966>
+      <last_name_14966>Pfister</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000023755</id>
+    <subject>Issue Connecting Wireless Sonos Play 1 Speaker to wifi in Office</subject>
+    <due-by type="dateTime">2018-01-24T10:22:00-06:00</due-by>
+    <display-id type="integer">44</display-id>
+    <requester-id type="integer">1000834605</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2018-01-22T10:39:08-06:00</created-at>
+    <updated-at type="dateTime">2018-01-22T10:41:15-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086663</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Katie Klein-Murphy</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name>Marketing-Staff</department-name>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000023754</id>
+      <problem-id type="integer">1000023755</problem-id>
+      <description>I am trying to connect my wireless, Sonos Play:1 wireless speaker to the MSOE_guest wifi network in my office. I have failed miserably. After contacting Sonos for help, they believe there may be something in the firewall or an issue obtaining the IP address that is preventing the connection. They provided two resources for IT departments to help:  
+   
+ https://sonos.custhelp.com/app/answers/detail/a_id/2871/~/wireless-connection-error 
+  https://sonos.custhelp.com/app/answers/detail/a_id/692 
+   
+ https://sonos.custhelp.com/app/answers/detail/a_id/2129 
+   
+ I have set up two of these same speakers to my home's wireless network without issue, and hope that you can help me set one up in my office as well. </description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;div&gt;I am trying to connect my wireless, Sonos Play:1 wireless speaker to the MSOE_guest wifi network in my office. I have failed miserably. After contacting Sonos for help, they believe there may be something in the firewall or an issue obtaining the IP address that is preventing the connection. They provided two resources for IT departments to help: &lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href="https://sonos.custhelp.com/app/answers/detail/a_id/2871/~/wireless-connection-error" rel="noreferrer"&gt;https://sonos.custhelp.com/app/answers/detail/a_id/2871/~/wireless-connection-error&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br&gt;&lt;a href="https://sonos.custhelp.com/app/answers/detail/a_id/692" rel="noreferrer"&gt;https://sonos.custhelp.com/app/answers/detail/a_id/692&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href="https://sonos.custhelp.com/app/answers/detail/a_id/2129" rel="noreferrer"&gt;https://sonos.custhelp.com/app/answers/detail/a_id/2129&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;I have set up two of these same speakers to my home's wireless network without issue, and hope that you can help me set one up in my office as well. &lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-01-22T10:39:08-06:00</created-at>
+      <updated-at type="dateTime">2018-01-22T10:39:08-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Katie</first_name_14966>
+      <last_name_14966>Klein</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000023964</id>
+    <subject>Windows not activated after grad image</subject>
+    <due-by type="dateTime">2018-03-07T14:02:00-06:00</due-by>
+    <display-id type="integer">45</display-id>
+    <requester-id type="integer">1000259755</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064431</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2018-03-01T14:03:55-06:00</created-at>
+    <updated-at type="dateTime">2018-03-07T10:22:13-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Alexander Schroeder</requester-name>
+    <owner-name nil="true"/>
+    <group-name>System Admin/Server Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000023963</id>
+      <problem-id type="integer">1000023964</problem-id>
+      <description>Creating a problem for these tickets in order to track how many come in like this.  Will probably be an issue on all 840G3's. 
+   
+ When grad imaged, the 840G3's do not successfully license Windows 10.</description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;div style=""&gt;Creating a problem for these tickets in order to track how many come in like this.  Will probably be an issue on all 840G3's.&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;When grad imaged, the 840G3's do not successfully license Windows 10.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-03-01T14:03:55-06:00</created-at>
+      <updated-at type="dateTime">2018-03-07T10:22:13-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <id_number_14966>543997</id_number_14966>
+      <first_name_14966>Alexander</first_name_14966>
+      <last_name_14966>Schroeder</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000024645</id>
+    <subject>GET Portal general error</subject>
+    <due-by type="dateTime">2018-07-07T12:36:00-05:00</due-by>
+    <display-id type="integer">46</display-id>
+    <requester-id type="integer">1000710735</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2018-07-05T12:37:45-05:00</created-at>
+    <updated-at type="dateTime">2018-07-10T15:14:31-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Catherine Scholz</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000024644</id>
+      <problem-id type="integer">1000024645</problem-id>
+      <description>GET Portal is giving a general error. Users are unable to add funds to their managed accounts. There is a ticket open with CBORD</description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;div&gt;GET Portal is giving a general error. Users are unable to add funds to their managed accounts. There is a ticket open with CBORD&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-07-05T12:37:45-05:00</created-at>
+      <updated-at type="dateTime">2018-07-05T12:37:45-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Catherine</first_name_14966>
+      <last_name_14966>Scholz</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000024798</id>
+    <subject>Jenzabar connectivity problems RDP</subject>
+    <due-by type="dateTime">2018-08-16T16:37:00-05:00</due-by>
+    <display-id type="integer">47</display-id>
+    <requester-id type="integer">1000079037</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000064427</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2018-08-14T16:42:05-05:00</created-at>
+    <updated-at type="dateTime">2018-08-15T09:12:02-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086658</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Peter Pfister</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Network Team</group-name>
+    <assoc-change nil="true"/>
+    <department-name>IT-Staff</department-name>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000024797</id>
+      <problem-id type="integer">1000024798</problem-id>
+      <description>Tickets related to this issue should contain: 
+ 
+ Who the person is 
+ Time the issue occurred 
+ Building 
+ Room number 
+ Wired or WiFi  
+  ipconfig /all   Wall port number (optional)</description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;div&gt;
+&lt;span style=""&gt;Tickets related to this issue should contain:&lt;/span&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;div&gt;Who the person is&lt;/div&gt;
+&lt;div&gt;Time the issue occurred&lt;/div&gt;
+&lt;div&gt;&lt;span style=""&gt;Building&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=""&gt;Room number&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=""&gt;Wired or WiFi&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div&gt;&lt;p style="margin-bottom:15px;"&gt;&lt;span style=""&gt;ipconfig /all &lt;/span&gt;&lt;/p&gt;&lt;p style="margin-bottom:15px;"&gt;&lt;span style=""&gt;Wall port number (optional)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-08-14T16:42:05-05:00</created-at>
+      <updated-at type="dateTime">2018-08-15T09:12:02-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Peter</first_name_14966>
+      <last_name_14966>Pfister</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000025040</id>
+    <subject>New employee </subject>
+    <due-by type="dateTime">2018-10-24T17:01:00-05:00</due-by>
+    <display-id type="integer">48</display-id>
+    <requester-id type="integer">1000257266</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer">1000202310</group-id>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">false</known-error>
+    <created-at type="dateTime">2018-10-21T17:06:43-05:00</created-at>
+    <updated-at type="dateTime">2018-10-21T17:06:43-05:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer" nil="true"/>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Low</priority-name>
+    <status-name>Open</status-name>
+    <impact-name>Low</impact-name>
+    <requester-name>Davinci Wallace</requester-name>
+    <owner-name nil="true"/>
+    <group-name>Campus Card</group-name>
+    <assoc-change nil="true"/>
+    <department-name nil="true"/>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000025039</id>
+      <problem-id type="integer">1000025040</problem-id>
+      <description>Hi,  I have a new employee started nov 5th, she souls need her MSOE email, computer, and phone.   Her name is Emma philips and she will be working in the enrollment office.   Sent from my iPhone</description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;br&gt;&lt;div&gt;Hi,&lt;br&gt; I have a new employee started nov 5th, she souls need her MSOE email, computer, and phone.   Her name is Emma philips and she will be working in the enrollment office. &lt;br&gt;&lt;br&gt;Sent from my iPhone&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-10-21T17:06:43-05:00</created-at>
+      <updated-at type="dateTime">2018-10-21T17:06:43-05:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array"/>
+    <attachments type="array"/>
+    <custom_field>
+      <id_number_14966>234840</id_number_14966>
+      <first_name_14966>Davinci</first_name_14966>
+      <last_name_14966>Wallace</last_name_14966>
+    </custom_field>
+  </problem>
+  <problem>
+    <id type="integer">1000025103</id>
+    <subject>Jenzabar is Down</subject>
+    <due-by type="dateTime">2018-11-09T09:57:00-06:00</due-by>
+    <display-id type="integer">49</display-id>
+    <requester-id type="integer">1000710735</requester-id>
+    <owner-id type="integer" nil="true"/>
+    <group-id type="integer" nil="true"/>
+    <change-id type="integer" nil="true"/>
+    <deleted type="boolean">false</deleted>
+    <known-error type="boolean">true</known-error>
+    <created-at type="dateTime">2018-11-07T10:02:07-06:00</created-at>
+    <updated-at type="dateTime">2018-11-08T08:54:06-06:00</updated-at>
+    <import-id type="integer" nil="true"/>
+    <category nil="true"/>
+    <sub-category nil="true"/>
+    <item-category nil="true"/>
+    <department-id type="integer">1000086658</department-id>
+    <email-config-id type="integer" nil="true"/>
+    <wf-event-id type="integer" nil="true"/>
+    <priority-name>Urgent</priority-name>
+    <status-name>Closed</status-name>
+    <impact-name>High</impact-name>
+    <requester-name>Catherine Scholz</requester-name>
+    <owner-name nil="true"/>
+    <group-name nil="true"/>
+    <assoc-change nil="true"/>
+    <department-name>IT-Staff</department-name>
+    <problem-impact type="Itil::ProblemImpact">
+      <id type="integer">1000017905</id>
+      <problem-id type="integer">1000025103</problem-id>
+      <user-id type="integer">1000954134</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Nobody is able to access Remote Desktop</description>
+      <description-html>&lt;div&gt;Nobody is able to access Remote Desktop&lt;/div&gt;</description-html>
+      <created-at type="dateTime">2018-11-07T10:09:29-06:00</created-at>
+      <updated-at type="dateTime">2018-11-07T10:09:29-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-impact>
+    <problem-symptom type="Itil::ProblemSymptom">
+      <id type="integer">1000002115</id>
+      <problem-id type="integer">1000025103</problem-id>
+      <user-id type="integer">1000954134</user-id>
+      <account-id type="integer">14966</account-id>
+      <description>Error message upon login attempts to Remote Desktop</description>
+      <description-html>&lt;div&gt;Error message upon login attempts to Remote Desktop&lt;/div&gt;
+</description-html>
+      <created-at type="dateTime">2018-11-07T10:09:53-06:00</created-at>
+      <updated-at type="dateTime">2018-11-07T10:09:53-06:00</updated-at>
+      <attachments type="array"/>
+    </problem-symptom>
+    <problem-body type="Itil::ProblemBody">
+      <id type="integer">1000025115</id>
+      <problem-id type="integer">1000025103</problem-id>
+      <description>-Instructed to create Problem on Fresh-Service as Jenzabar is Down. 
+ -We are working with the provider to restore access. 
+ -Associating all tickets with Jenzabar issues under this Problem.</description>
+      <description-html>&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;&lt;div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;'&gt;
+&lt;div&gt;-Instructed to create Problem on Fresh-Service as Jenzabar is Down.&lt;/div&gt;
+&lt;div&gt;-We are working with the provider to restore access.&lt;/div&gt;
+&lt;div&gt;-Associating all tickets with Jenzabar issues under this Problem.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description-html>
+      <account-id type="integer">14966</account-id>
+      <created-at type="dateTime">2018-11-07T10:15:15-06:00</created-at>
+      <updated-at type="dateTime">2018-11-07T10:15:15-06:00</updated-at>
+    </problem-body>
+    <itil-tasks type="array"/>
+    <problem-articles type="array"/>
+    <notes type="array">
+      <note type="Itil::Note">
+        <id type="integer">1000032988</id>
+        <body>(This problem ticket created by Andrew Thomas-Tier 1 per Catherine Scholz)</body>
+        <body-html>&lt;div style="margin-bottom:15px;"&gt;&lt;span style=""&gt;(This problem ticket created by Andrew Thomas-Tier 1 per Catherine Scholz)&lt;/span&gt;&lt;/div&gt;
+</body-html>
+        <to-emails type="array"/>
+        <cc-emails nil="true"/>
+        <deleted type="boolean">false</deleted>
+        <notable-type>Itil::Problem</notable-type>
+        <notable-id type="integer">1000025103</notable-id>
+        <user-id type="integer">1000954134</user-id>
+        <account-id type="integer">14966</account-id>
+        <created-at type="dateTime">2018-11-07T10:15:36-06:00</created-at>
+        <updated-at type="dateTime">2018-11-07T10:15:36-06:00</updated-at>
+        <header-info nil="true"/>
+        <attachments type="array"/>
+      </note>
+    </notes>
+    <attachments type="array"/>
+    <custom_field>
+      <first_name_14966>Catherine</first_name_14966>
+      <last_name_14966>Scholz</last_name_14966>
+    </custom_field>
+  </problem>
+</itil-problems>
