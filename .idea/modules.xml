@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Freshservice-Gamification.iml" filepath="$PROJECT_DIR$/Freshservice-Gamification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gameification.iml" filepath="$PROJECT_DIR$/Gameification.iml" />
     </modules>
   </component>
 </project>

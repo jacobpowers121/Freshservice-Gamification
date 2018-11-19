@@ -41,8 +41,8 @@
     <assoc-problem>Unable to reach email server</assoc-problem>
     <assoc-change>Getting ES3 back up to speed</assoc-change>
     <assoc-change-cause nil="true"/>
-    <description>Hi Team, I have been unable to send any emails since this morning. What�s going on? Regards, Andrea</description>
-    <description-html>&lt;div&gt;Hi Team,&lt;br/&gt; &lt;br/&gt;I have been unable to send any emails since this morning. What�s going on?&lt;br/&gt;&lt;br/&gt;Regards,&lt;br/&gt; Andrea &lt;/div&gt;</description-html>
+    <description>Hi Team, I have been unable to send any emails since this morning. What's going on? Regards, Andrea</description>
+    <description-html>&lt;div&gt;Hi Team,&lt;br/&gt; &lt;br/&gt;I have been unable to send any emails since this morning. What's going on?&lt;br/&gt;&lt;br/&gt;Regards,&lt;br/&gt; Andrea &lt;/div&gt;</description-html>
     <attachments type="array"/>
     <tags type="array"/>
     <to_emails>

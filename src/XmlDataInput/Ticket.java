@@ -9,39 +9,184 @@ public class Ticket {
 
     //Main ticket variables and cc/fwd variables
 
-    private String category;
-    private String subCategory;
-    private String itemCategory;
-    private String subject;
-    private String ticketType;
-    private String[] ccEmails;
-    private String[] fwdEmails;
-    private String[] replyCc;
-    private String[] tktCc;
-    private String[] toEmail;
-    private Date dueBy;
-    private Date frDueBy;
-    private Date createdAt;
-    private Date updatedAt;
-    private boolean spamType;
-    private boolean deletedType;
-    private boolean isEscalated;
-    private boolean frEscalated;
-    private int id;
-    private int requesterId;
-    private int responderId;
-    private int statusType;
-    private int sourceType;
-    private int displayId;
-    private int ownerId;
-    private int groupId;
-    private int priority;
-    private int emailConfigId;
-    private int urgency;
-    private int impact;
-    private int departmentIdValue;
+    private String category = null;
+    private String subCategory = null;
+    private String itemCategory = null;
+    private String subject = null;
+    private String ticketType = null;
+    private String location14966 = null;
+    private String incidentType14966 = null;
+    private String phoneNumber14966 = null;
+    private String whatDidYouDo = null;
+    private String dependantFieldChoose14966 = null;
+    private String troubleShooting = null;
+    private String studentId14966 = null;
+    private String assetTag14966 = null;
+    private String requesterName = null;
+    private String responderName = null;
+    private String assocProblem = null;
+    private String assocChange = null;
+    private String assocChangeCause = null;
+    private String description = null;
+    private String descriptionHtml = null;
+    private String requesterStatusName = null;
+    private String StatusName = null;
+    private String PriorityName = null;
+    private String SourceName = null;
+    private String ccEmails = null;
+    private String fwdEmails = null;
+    private String replyCc = null;
+    private String tktCc = null;
+    private String toEmail = null;
+    private String attachments = null;
+    private String tags = null;
+    private String toEmails = null;
+    private Date dueBy = null;
+    private Date frDueBy = null;
+    private Date createdAt = null;
+    private Date updatedAt = null;
+    private boolean spamType = false;
+    private boolean deletedType = false;
+    private boolean isEscalated = false;
+    private boolean frEscalated = false;
+    private int id = -1;
+    private int requesterId = -1;
+    private int responderId = -1;
+    private int statusType = -1;
+    private int sourceType = -1;
+    private int displayId = -1;
+    private int ownerId = -1;
+    private int groupId = -1;
+    private int priority = -1;
+    private int emailConfigId = -1;
+    private int urgency = -1;
+    private int impact = -1;
+    private int departmentIdValue = -1;
 
+    public String toString(){
+        return category + "\n" + subCategory + "\n" + itemCategory + "\n" + subject + "\n" + ticketType + "\n" + location14966 + "\n" + incidentType14966 + "\n" + phoneNumber14966
+                + "\n" + whatDidYouDo + "\n" + dependantFieldChoose14966 + "\n" + troubleShooting + "\n" + studentId14966
+                + "\n" + assetTag14966 + "\n" + requesterName + "\n" + responderName + "\n" + assocChange
+                + "\n" + assocProblem + "\n" + assocChangeCause + "\n" + description + "\n" + descriptionHtml
+                + "\n" + requesterStatusName + "\n" + StatusName + "\n" + PriorityName + "\n" + SourceName
+                + "\n" + ccEmails + "\n" + fwdEmails + "\n" + replyCc + "\n" + tktCc
+                + "\n" + toEmail + "\n" + dueBy + "\n" + attachments + "\n" + tags
+                + "\n" + toEmails + "\n" + dueBy + "\n" + frDueBy.toString() + "\n" + createdAt.toString()
+                + "\n" + updatedAt.toString() + "\n" + spamType + "\n" + deletedType + "\n" + isEscalated
+                + "\n" + frEscalated + "\n" + id + "\n" + requesterId + "\n" + responderId
+                + "\n" + statusType + "\n" + sourceType + "\n" + displayId + "\n" + ownerId
+                + "\n" + priority + "\n" + emailConfigId + "\n" + urgency + "\n" + impact
+                + "\n" + departmentIdValue;
+    }
 
+    public String getLocation14966() {
+        return location14966;
+    }
+    public void setLocation14966(String location14966) {
+        this.location14966 = location14966;
+    }
+    public String getIncidentType14966() {
+        return incidentType14966;
+    }
+    public void setIncidentType14966(String incidentType14966) {
+        this.incidentType14966 = incidentType14966;
+    }
+    public String getPhoneNumber14966() {
+        return phoneNumber14966;
+    }
+    public void setPhoneNumber14966(String phoneNumber14966) {
+        this.phoneNumber14966 = phoneNumber14966;
+    }
+    public String getWhatDidYouDo() {
+        return whatDidYouDo;
+    }
+    public void setWhatDidYouDo(String whatDidYouDo) {
+        this.whatDidYouDo = whatDidYouDo;
+    }
+    public String getDependantFieldChoose14966() {
+        return dependantFieldChoose14966;
+    }
+    public void setDependantFieldChoose14966(String dependantFieldChoose14966) {
+        this.dependantFieldChoose14966 = dependantFieldChoose14966;
+    }
+    public String getTroubleShooting() {
+        return troubleShooting;
+    }
+    public void setTroubleShooting(String troubleShooting) {
+        this.troubleShooting = troubleShooting;
+    }
+    public String getStudentId14966() {
+        return studentId14966;
+    }
+    public void setStudentId14966(String studentId14966) {
+        this.studentId14966 = studentId14966;
+    }
+    public String getAssetTag14966() {
+        return assetTag14966;
+    }
+    public void setAssetTag14966(String assetTag14966) {
+        this.assetTag14966 = assetTag14966;
+    }
+    public String getRequesterName() {
+        return requesterName;
+    }
+    public void setRequesterName(String requesterName) {
+        this.requesterName = requesterName;
+    }
+    public String getResponderName() {
+        return responderName;
+    }
+    public void setResponderName(String responderName) {
+        this.responderName = responderName;
+    }
+    public String getAssocProblem() {
+        return assocProblem;
+    }
+    public void setAssocProblem(String assocProblem) {
+        this.assocProblem = assocProblem;
+    }
+    public String getAssocChange() {
+        return assocChange;
+    }
+    public void setAssocChange(String assocChange) {
+        this.assocChange = assocChange;
+    }
+    public String getAssocChangeCause() {
+        return assocChangeCause;
+    }
+    public void setAssocChangeCause(String assocChangeCause) {
+        this.assocChangeCause = assocChangeCause;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public String getDescriptionHtml() {
+        return descriptionHtml;
+    }
+    public void setDescriptionHtml(String descriptionHtml) {
+        this.descriptionHtml = descriptionHtml;
+    }
+    public String getRequesterStatusName() {
+        return requesterStatusName;
+    }
+    public void setRequesterStatusName(String requesterStatusName) {
+        this.requesterStatusName = requesterStatusName;
+    }
+    public String getAttachments() {
+        return attachments;
+    }
+    public void setAttachments(String attachments) {
+        this.attachments = attachments;
+    }
+    public String getTags() {
+        return tags;
+    }
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
     public String getCategory() {
         return category;
     }
@@ -72,34 +217,34 @@ public class Ticket {
     public void setTicketType(String ticketType) {
         this.ticketType = ticketType;
     }
-    public String[] getCcEmails() {
+    public String getCcEmails() {
         return ccEmails;
     }
-    public void setCcEmails(String[] ccEmails) {
+    public void setCcEmails(String ccEmails) {
         this.ccEmails = ccEmails;
     }
-    public String[] getFwdEmails() {
+    public String getFwdEmails() {
         return fwdEmails;
     }
-    public void setFwdEmails(String[] fwdEmails) {
+    public void setFwdEmails(String fwdEmails) {
         this.fwdEmails = fwdEmails;
     }
-    public String[] getReplyCc() {
+    public String getReplyCc() {
         return replyCc;
     }
-    public void setReplyCc(String[] replyCc) {
+    public void setReplyCc(String replyCc) {
         this.replyCc = replyCc;
     }
-    public String[] getTktCc() {
+    public String getTktCc() {
         return tktCc;
     }
-    public void setTktCc(String[] tktCc) {
+    public void setTktCc(String tktCc) {
         this.tktCc = tktCc;
     }
-    public String[] getToEmail() {
+    public String getToEmail() {
         return toEmail;
     }
-    public void setToEmail(String[] toEmail) {
+    public void setToEmail(String toEmail) {
         this.toEmail = toEmail;
     }
     public Date getDueBy() {
@@ -228,31 +373,22 @@ public class Ticket {
     public void setDepartmentIdValue(int departmentIdValue) {
         this.departmentIdValue = departmentIdValue;
     }
-
-    private enum statusName {OPEN, PENDING, RESOLVED, CLOSED}
-    private String requesterStatusName;
-    private enum priorityName {LOW, MEDIUM, HIGH, URGENT}
-    private enum sourceName {EMAIL, PORTAL, PHONE, CHAT}
-    private String requesterName;
-    private String responderName;
-    private String assocProblem;
-    private String assocChange;
-    private String assocChangeCause;
-    private String description;
-    private String descriptionHtml;
-    private String[] attachments;
-    private String[] tags;
-    private String[] toEmails;
-    private String location14966;
-    private String incidentType14966;
-    private String departmentName;
-    private String urgencyName;
-    private String impactName;
-    private String phoneNumber14966;
-    private String whatDidYouDo;
-    private String dependantFieldChoose14966;
-    private String troubleShooting;
-    private String studentId14966;
-    private String assetTag14966;
-
+    public String getStatusName() {
+        return StatusName;
+    }
+    public void setStatusName(String statusName) {
+        StatusName = statusName;
+    }
+    public String getPriorityName() {
+        return PriorityName;
+    }
+    public void setPriorityName(String priorityName) {
+        PriorityName = priorityName;
+    }
+    public String getSourceName() {
+        return SourceName;
+    }
+    public void setSourceName(String sourceName) {
+        SourceName = sourceName;
+    }
 }
