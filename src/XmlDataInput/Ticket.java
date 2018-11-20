@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Ticket {
 
-    SimpleDateFormat dateFormatting = new SimpleDateFormat("yyyyMMdd'T'HHmmss");
+    SimpleDateFormat dateFormatting = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ssZ");
 
     //Main ticket variables and cc/fwd variables
 
@@ -41,10 +41,6 @@ public class Ticket {
     private String attachments = null;
     private String tags = null;
     private String toEmails = null;
-    private Date dueBy = null;
-    private Date frDueBy = null;
-    private Date createdAt = null;
-    private Date updatedAt = null;
     private boolean spamType = false;
     private boolean deletedType = false;
     private boolean isEscalated = false;
@@ -62,6 +58,10 @@ public class Ticket {
     private int urgency = -1;
     private int impact = -1;
     private int departmentIdValue = -1;
+    private String dueBy = null;
+    private Date frDueBy = new Date();
+    private Date createdAt = new Date();
+    private Date updatedAt = new Date();
 
     public String toString(){
         return category + "\n" + subCategory + "\n" + itemCategory + "\n" + subject + "\n" + ticketType + "\n" + location14966 + "\n" + incidentType14966 + "\n" + phoneNumber14966
@@ -70,7 +70,7 @@ public class Ticket {
                 + "\n" + assocProblem + "\n" + assocChangeCause + "\n" + description + "\n" + descriptionHtml
                 + "\n" + requesterStatusName + "\n" + StatusName + "\n" + PriorityName + "\n" + SourceName
                 + "\n" + ccEmails + "\n" + fwdEmails + "\n" + replyCc + "\n" + tktCc
-                + "\n" + toEmail + "\n" + dueBy + "\n" + attachments + "\n" + tags
+                + "\n" + toEmail + "\n" + attachments + "\n" + tags
                 + "\n" + toEmails + "\n" + dueBy + "\n" + frDueBy.toString() + "\n" + createdAt.toString()
                 + "\n" + updatedAt.toString() + "\n" + spamType + "\n" + deletedType + "\n" + isEscalated
                 + "\n" + frEscalated + "\n" + id + "\n" + requesterId + "\n" + responderId
@@ -247,10 +247,10 @@ public class Ticket {
     public void setToEmail(String toEmail) {
         this.toEmail = toEmail;
     }
-    public Date getDueBy() {
+    public String getDueBy() {
         return dueBy;
     }
-    public void setDueBy(Date dueBy) {
+    public void setDueBy(String dueBy) {
         this.dueBy = dueBy;
     }
     public Date getFrDueBy() {

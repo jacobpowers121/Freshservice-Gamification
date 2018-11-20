@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdesk-tickets type="array">
+    <helpdesk-ticket>
+        <due-by type="dateTime">2015-02-04T09:43:52-06:00</due-by>
+        <deleted type="boolean">false</deleted>
+        <display-id type="integer">25502</display-id>
+        <custom_field>
+            <location_14966>Kern Center</location_14966>
+            <incident_type_14966>Audio/Visual Equipment</incident_type_14966>
+        </custom_field>
+    </helpdesk-ticket>
+</helpdesk-tickets>

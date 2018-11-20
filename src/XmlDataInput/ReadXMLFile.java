@@ -20,7 +20,7 @@ public class ReadXMLFile {
     public static Helpdesk helpdesk = new Helpdesk();
     private static Note note = new Note();
     private static Ticket ticket = new Ticket();
-    private static SimpleDateFormat dateFormatting = new SimpleDateFormat("yyyyMMdd'T'HHmmss");
+    private static SimpleDateFormat dateFormatting = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ssZ");
     private static String ccEmailString = "";
     private static String replyCcString = "";
     private static String fwdEmailString = "";
@@ -319,11 +319,19 @@ public class ReadXMLFile {
                             int id = Integer.parseInt(new String(ch, start, length));
                             ticketParser(id);
                         }
+
+
+
+
                         if(ticketStates == TicketStates.DUEBY){
                             String sDate = new String(ch, start, length);
-                            Date date = dateFormatting.parse(sDate);
-                            ticketParser(date);
+                            ticketParser(sDate);
                         }
+
+
+
+
+
                         if(ticketStates == TicketStates.FRDUEBY){
                             String sDate = new String(ch, start, length);
                             Date date = dateFormatting.parse(sDate);
@@ -460,7 +468,7 @@ public class ReadXMLFile {
                 }
             };
 
-            String filename = "C:\\Users\\powersjd\\Desktop\\Gameification\\TicketDump\\TicketTest.xml";
+            String filename = "C:\\Users\\jacob\\Desktop\\Fresh\\Freshservice-Gamification\\TicketDump\\TicketTest.xml";
             saxParser.parse(filename, handler);
 
         } catch (Exception e) {
@@ -470,6 +478,9 @@ public class ReadXMLFile {
     }
 
     public static void ticketParser(String contents){
+        if(ticketStates == TicketStates.DUEBY){
+            ticket.setDueBy(contents);
+        }
         if(ticketStates == TicketStates.CATEGORY){
             ticket.setCategory(contents);
         }
@@ -566,9 +577,6 @@ public class ReadXMLFile {
     }
 
     public static void ticketParser(Date contents){
-        if(ticketStates == TicketStates.DUEBY){
-            ticket.setDueBy(contents);
-        }
         if(ticketStates == TicketStates.FRDUEBY){
             ticket.setFrDueBy(contents);
         }

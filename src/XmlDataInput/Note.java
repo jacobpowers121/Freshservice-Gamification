@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Note {
 
-    SimpleDateFormat dateFormatting = new SimpleDateFormat("yyyyMMdd'T'HHmmss");
+    SimpleDateFormat dateFormatting = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ssZ");
 
     //Note Variables
     private String[] helpdeskNotes;
