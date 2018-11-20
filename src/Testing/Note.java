@@ -22,6 +22,6 @@ public class Note {
         return userid;
     }
     public String getPrivateBool(){
-        return getPrivateBool();
+        return privateBool;
     }
 }
