@@ -6,7 +6,6 @@ public class Note {
     private String privateBool;
 
     public String toString(){
-
         return userid + "\n" + privateBool + "\n";
     }
 
